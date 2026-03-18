@@ -41,7 +41,7 @@
     "googlePlaceId": "ChIJJwDPWdj3kFQRDGHV_SBTpRY",
     "googleRating": 4.5,
     "googleReviewCount": 186,
-    "sqft": null,
+    "sqft": 20000,
     "photos": [
       "/photos/ChIJJwDPWdj3kFQRDGHV_SBTpRY-0.jpg",
       "/photos/ChIJJwDPWdj3kFQRDGHV_SBTpRY-1.jpg",
@@ -73,7 +73,7 @@
     "googlePlaceId": "ChIJAf2ta4xskFQRMkLmAk-vP7o",
     "googleRating": 4.6,
     "googleReviewCount": 565,
-    "sqft": null,
+    "sqft": 80000,
     "photos": [
       "/photos/ChIJAf2ta4xskFQRMkLmAk-vP7o-0.jpg",
       "/photos/ChIJAf2ta4xskFQRMkLmAk-vP7o-1.jpg",
@@ -105,7 +105,7 @@
     "googlePlaceId": "ChIJyUm7Gtv0kFQRqIgcGSVCVIQ",
     "googleRating": 4.4,
     "googleReviewCount": 30,
-    "sqft": null,
+    "sqft": 5000,
     "photos": [
       "/photos/ChIJyUm7Gtv0kFQRqIgcGSVCVIQ-0.jpg",
       "/photos/ChIJyUm7Gtv0kFQRqIgcGSVCVIQ-1.jpg",
@@ -136,7 +136,7 @@
     "googlePlaceId": "ChIJUd-Y7GoOkFQR1QHRSiWPGqw",
     "googleRating": 4.7,
     "googleReviewCount": 251,
-    "sqft": null,
+    "sqft": 22500,
     "photos": [
       "/photos/ChIJUd-Y7GoOkFQR1QHRSiWPGqw-0.jpg",
       "/photos/ChIJUd-Y7GoOkFQR1QHRSiWPGqw-1.jpg",
@@ -168,7 +168,7 @@
     "googlePlaceId": "ChIJMWnYLalDkFQR1H-9De_jG2E",
     "googleRating": 4.5,
     "googleReviewCount": 50,
-    "sqft": null,
+    "sqft": 6536,
     "photos": [
       "/photos/ChIJMWnYLalDkFQR1H-9De_jG2E-0.jpg",
       "/photos/ChIJMWnYLalDkFQR1H-9De_jG2E-1.jpg",
@@ -199,7 +199,7 @@
     "googlePlaceId": "ChIJva2ZiYJEkFQRUAcZ2U7_s-M",
     "googleRating": 4.2,
     "googleReviewCount": 182,
-    "sqft": null,
+    "sqft": 32000,
     "photos": [
       "/photos/ChIJva2ZiYJEkFQRUAcZ2U7_s-M-0.jpg",
       "/photos/ChIJva2ZiYJEkFQRUAcZ2U7_s-M-1.jpg",
@@ -231,7 +231,7 @@
     "googlePlaceId": "ChIJ0TDYwJt2kFQRKDdeLIgdrkM",
     "googleRating": 4.5,
     "googleReviewCount": 17,
-    "sqft": null,
+    "sqft": 5000,
     "photos": [
       "/photos/ChIJ0TDYwJt2kFQRKDdeLIgdrkM-0.jpg",
       "/photos/ChIJ0TDYwJt2kFQRKDdeLIgdrkM-1.jpg",
@@ -262,7 +262,7 @@
     "googlePlaceId": "ChIJeWV25wlfkFQRW4tBJpDs2oM",
     "googleRating": 4.7,
     "googleReviewCount": 176,
-    "sqft": null,
+    "sqft": 23000,
     "photos": [
       "/photos/ChIJeWV25wlfkFQRW4tBJpDs2oM-0.jpg",
       "/photos/ChIJeWV25wlfkFQRW4tBJpDs2oM-1.jpg",
@@ -293,7 +293,7 @@
     "googlePlaceId": "ChIJL3rGAwVbkFQRyBZqrmU4KUU",
     "googleRating": 4.5,
     "googleReviewCount": 122,
-    "sqft": null,
+    "sqft": 10230,
     "photos": [
       "/photos/ChIJL3rGAwVbkFQRyBZqrmU4KUU-0.jpg",
       "/photos/ChIJL3rGAwVbkFQRyBZqrmU4KUU-1.jpg",
@@ -324,7 +324,7 @@
     "googlePlaceId": "ChIJoegMU9wKkFQRvDYpCZfU7mw",
     "googleRating": 4.6,
     "googleReviewCount": 69,
-    "sqft": null,
+    "sqft": 8000,
     "photos": [
       "/photos/ChIJoegMU9wKkFQRvDYpCZfU7mw-0.jpg",
       "/photos/ChIJoegMU9wKkFQRvDYpCZfU7mw-1.jpg",
@@ -356,7 +356,7 @@
     "googlePlaceId": "ChIJDXhR7QbykFQRKGUoscZ9qYw",
     "googleRating": 4.7,
     "googleReviewCount": 54,
-    "sqft": null,
+    "sqft": 10541,
     "photos": [
       "/photos/ChIJDXhR7QbykFQRKGUoscZ9qYw-0.jpg",
       "/photos/ChIJDXhR7QbykFQRKGUoscZ9qYw-1.jpg",
@@ -388,7 +388,7 @@
     "googlePlaceId": "ChIJA8EXXH9nkFQRBkCNhakJfJ4",
     "googleRating": 4.8,
     "googleReviewCount": 172,
-    "sqft": null,
+    "sqft": 20000,
     "photos": [
       "/photos/ChIJA8EXXH9nkFQRBkCNhakJfJ4-0.jpg",
       "/photos/ChIJA8EXXH9nkFQRBkCNhakJfJ4-1.jpg",
@@ -420,7 +420,7 @@
     "googlePlaceId": "ChIJvQgS6Qx6kFQRLJCzwfdQ218",
     "googleRating": 4.8,
     "googleReviewCount": 27,
-    "sqft": null,
+    "sqft": 5000,
     "photos": [
       "/photos/ChIJvQgS6Qx6kFQRLJCzwfdQ218-0.jpg",
       "/photos/ChIJvQgS6Qx6kFQRLJCzwfdQ218-1.jpg",
@@ -482,7 +482,7 @@
     "googlePlaceId": "ChIJxUUM1bNXkFQRX7S_Vp3VsuU",
     "googleRating": 4.7,
     "googleReviewCount": 237,
-    "sqft": null,
+    "sqft": 34500,
     "photos": [
       "/photos/ChIJxUUM1bNXkFQRX7S_Vp3VsuU-0.jpg",
       "/photos/ChIJxUUM1bNXkFQRX7S_Vp3VsuU-1.jpg",
@@ -514,7 +514,7 @@
     "googlePlaceId": "ChIJ89vp0dtDkFQR-OBZ-TLhSxw",
     "googleRating": 4.4,
     "googleReviewCount": 36,
-    "sqft": null,
+    "sqft": 2300,
     "photos": [
       "/photos/ChIJ89vp0dtDkFQR-OBZ-TLhSxw-0.jpg",
       "/photos/ChIJ89vp0dtDkFQR-OBZ-TLhSxw-1.jpg",
@@ -544,7 +544,7 @@
     "googlePlaceId": "ChIJ00HiHYBlkFQRw_6qxzwQoWs",
     "googleRating": 4.6,
     "googleReviewCount": 149,
-    "sqft": null,
+    "sqft": 15000,
     "photos": [
       "/photos/ChIJ00HiHYBlkFQRw_6qxzwQoWs-0.jpg",
       "/photos/ChIJ00HiHYBlkFQRw_6qxzwQoWs-1.jpg",
@@ -576,7 +576,7 @@
     "googlePlaceId": "ChIJBUoPYyYOkFQRj0XiIVZl2lA",
     "googleRating": 4.7,
     "googleReviewCount": 81,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJBUoPYyYOkFQRj0XiIVZl2lA-0.jpg",
       "/photos/ChIJBUoPYyYOkFQRj0XiIVZl2lA-1.jpg",
@@ -607,7 +607,7 @@
     "googlePlaceId": "ChIJi69Y9VVZkFQRT1Wr9tTDRBs",
     "googleRating": 4.1,
     "googleReviewCount": 226,
-    "sqft": null,
+    "sqft": 22600,
     "photos": [
       "/photos/ChIJi69Y9VVZkFQRT1Wr9tTDRBs-0.jpg",
       "/photos/ChIJi69Y9VVZkFQRT1Wr9tTDRBs-1.jpg",
@@ -639,7 +639,7 @@
     "googlePlaceId": "ChIJB1uSK7VdkFQRboJmDv3OcM4",
     "googleRating": 4.4,
     "googleReviewCount": 66,
-    "sqft": null,
+    "sqft": 5000,
     "photos": [
       "/photos/ChIJB1uSK7VdkFQRboJmDv3OcM4-0.jpg",
       "/photos/ChIJB1uSK7VdkFQRboJmDv3OcM4-1.jpg",
@@ -670,7 +670,7 @@
     "googlePlaceId": "ChIJ6-awvuoNkFQRdPpE_12ZyfA",
     "googleRating": 4.5,
     "googleReviewCount": 117,
-    "sqft": null,
+    "sqft": 10235,
     "photos": [
       "/photos/ChIJ6-awvuoNkFQRdPpE_12ZyfA-0.jpg",
       "/photos/ChIJ6-awvuoNkFQRdPpE_12ZyfA-1.jpg",
@@ -702,7 +702,7 @@
     "googlePlaceId": "ChIJ2V7abt0SkFQRGgKXhAeOyLc",
     "googleRating": 4.6,
     "googleReviewCount": 282,
-    "sqft": null,
+    "sqft": 19500,
     "photos": [
       "/photos/ChIJ2V7abt0SkFQRGgKXhAeOyLc-0.jpg",
       "/photos/ChIJ2V7abt0SkFQRGgKXhAeOyLc-1.jpg",
@@ -733,7 +733,7 @@
     "googlePlaceId": "ChIJE4zCSsgRkFQRZomvi57Pej4",
     "googleRating": 4.7,
     "googleReviewCount": 26,
-    "sqft": null,
+    "sqft": 5841,
     "photos": [
       "/photos/ChIJE4zCSsgRkFQRZomvi57Pej4-0.jpg",
       "/photos/ChIJE4zCSsgRkFQRZomvi57Pej4-1.jpg",
@@ -764,7 +764,7 @@
     "googlePlaceId": "ChIJf-DeZjFskFQRXUpl7DNKTog",
     "googleRating": 4.6,
     "googleReviewCount": 116,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJf-DeZjFskFQRXUpl7DNKTog-0.jpg",
       "/photos/ChIJf-DeZjFskFQRXUpl7DNKTog-1.jpg",
@@ -827,7 +827,7 @@
     "googlePlaceId": "ChIJ3VbiJWxgkFQRVBcVFBaW7M4",
     "googleRating": 4.5,
     "googleReviewCount": 100,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJ3VbiJWxgkFQRVBcVFBaW7M4-0.jpg",
       "/photos/ChIJ3VbiJWxgkFQRVBcVFBaW7M4-1.jpg",
@@ -858,7 +858,7 @@
     "googlePlaceId": "ChIJYeyfOtFrkFQRrecaKjPJhlc",
     "googleRating": 4.6,
     "googleReviewCount": 85,
-    "sqft": null,
+    "sqft": 14886,
     "photos": [
       "/photos/ChIJYeyfOtFrkFQRrecaKjPJhlc-0.jpg",
       "/photos/ChIJYeyfOtFrkFQRrecaKjPJhlc-1.jpg",
@@ -890,7 +890,7 @@
     "googlePlaceId": "ChIJZ2BPpC3xkFQRfaVEB5gyodI",
     "googleRating": 4.9,
     "googleReviewCount": 21,
-    "sqft": null,
+    "sqft": 6000,
     "photos": [
       "/photos/ChIJZ2BPpC3xkFQRfaVEB5gyodI-0.jpg",
       "/photos/ChIJZ2BPpC3xkFQRfaVEB5gyodI-1.jpg",
@@ -921,7 +921,7 @@
     "googlePlaceId": "ChIJdbRukB5pkFQR3hLJn_dalWI",
     "googleRating": 4.5,
     "googleReviewCount": 118,
-    "sqft": null,
+    "sqft": 11000,
     "photos": [
       "/photos/ChIJdbRukB5pkFQR3hLJn_dalWI-0.jpg",
       "/photos/ChIJdbRukB5pkFQR3hLJn_dalWI-1.jpg",
@@ -952,7 +952,7 @@
     "googlePlaceId": "ChIJ_YeWq7FukFQR1unxtr4_0xE",
     "googleRating": 4.4,
     "googleReviewCount": 101,
-    "sqft": null,
+    "sqft": 8690,
     "photos": [
       "/photos/ChIJ_YeWq7FukFQR1unxtr4_0xE-0.jpg",
       "/photos/ChIJ_YeWq7FukFQR1unxtr4_0xE-1.jpg",
@@ -983,7 +983,7 @@
     "googlePlaceId": "ChIJbSa0nyN8kFQRlvDP70z8GtA",
     "googleRating": 4.6,
     "googleReviewCount": 60,
-    "sqft": null,
+    "sqft": 9600,
     "photos": [
       "/photos/ChIJbSa0nyN8kFQRlvDP70z8GtA-0.jpg",
       "/photos/ChIJbSa0nyN8kFQRlvDP70z8GtA-1.jpg",
@@ -1014,7 +1014,7 @@
     "googlePlaceId": "ChIJR0c4XE0NkFQRxiiq5S8cB40",
     "googleRating": 4.6,
     "googleReviewCount": 428,
-    "sqft": null,
+    "sqft": 30000,
     "photos": [
       "/photos/ChIJR0c4XE0NkFQRxiiq5S8cB40-0.jpg",
       "/photos/ChIJR0c4XE0NkFQRxiiq5S8cB40-1.jpg",
@@ -1046,7 +1046,7 @@
     "googlePlaceId": "ChIJV7XPJK9CkFQRPsyBPvc0oPw",
     "googleRating": 4.2,
     "googleReviewCount": 210,
-    "sqft": null,
+    "sqft": 19500,
     "photos": [
       "/photos/ChIJV7XPJK9CkFQRPsyBPvc0oPw-0.jpg",
       "/photos/ChIJV7XPJK9CkFQRPsyBPvc0oPw-1.jpg",
@@ -1109,7 +1109,7 @@
     "googlePlaceId": "ChIJadBPYKAQkFQR4Zh9veSoaFs",
     "googleRating": 4.8,
     "googleReviewCount": 34,
-    "sqft": null,
+    "sqft": 5250,
     "photos": [
       "/photos/ChIJadBPYKAQkFQR4Zh9veSoaFs-0.jpg",
       "/photos/ChIJadBPYKAQkFQR4Zh9veSoaFs-1.jpg",
@@ -1140,7 +1140,7 @@
     "googlePlaceId": "ChIJ2cNIi-ZxkFQRVeXV7rc0jjs",
     "googleRating": 4.7,
     "googleReviewCount": 194,
-    "sqft": null,
+    "sqft": 19500,
     "photos": [
       "/photos/ChIJ2cNIi-ZxkFQRVeXV7rc0jjs-0.jpg",
       "/photos/ChIJ2cNIi-ZxkFQRVeXV7rc0jjs-1.jpg",
@@ -1172,7 +1172,7 @@
     "googlePlaceId": "ChIJP_JGjfgQkFQRRp9tQoLXAgA",
     "googleRating": 4.6,
     "googleReviewCount": 196,
-    "sqft": null,
+    "sqft": 20954,
     "photos": [
       "/photos/ChIJP_JGjfgQkFQRRp9tQoLXAgA-0.jpg",
       "/photos/ChIJP_JGjfgQkFQRRp9tQoLXAgA-1.jpg",
@@ -1204,7 +1204,7 @@
     "googlePlaceId": "ChIJ97upMLpqkFQRtiqS8ThRlxk",
     "googleRating": 5,
     "googleReviewCount": 11,
-    "sqft": null,
+    "sqft": 1042,
     "photos": [
       "/photos/ChIJ97upMLpqkFQRtiqS8ThRlxk-0.jpg",
       "/photos/ChIJ97upMLpqkFQRtiqS8ThRlxk-1.jpg",
@@ -1232,7 +1232,7 @@
     "googlePlaceId": "ChIJl5H4LJZCkFQRX-Xo_2M5U2A",
     "googleRating": 4.5,
     "googleReviewCount": 85,
-    "sqft": null,
+    "sqft": 8000,
     "photos": [
       "/photos/ChIJl5H4LJZCkFQRX-Xo_2M5U2A-0.jpg",
       "/photos/ChIJl5H4LJZCkFQRX-Xo_2M5U2A-1.jpg",
@@ -1263,7 +1263,7 @@
     "googlePlaceId": "ChIJ6b6XDq97kFQR-VQ3yyPE-S8",
     "googleRating": 4.7,
     "googleReviewCount": 32,
-    "sqft": null,
+    "sqft": 6000,
     "photos": [
       "/photos/ChIJ6b6XDq97kFQR-VQ3yyPE-S8-0.jpg",
       "/photos/ChIJ6b6XDq97kFQR-VQ3yyPE-S8-1.jpg",
@@ -1326,7 +1326,7 @@
     "googlePlaceId": "ChIJk6F6wSJDkFQR8jeQreL_0y0",
     "googleRating": 4.5,
     "googleReviewCount": 119,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJk6F6wSJDkFQR8jeQreL_0y0-0.jpg",
       "/photos/ChIJk6F6wSJDkFQR8jeQreL_0y0-1.jpg",
@@ -1358,7 +1358,7 @@
     "googlePlaceId": "ChIJc7r_crlckFQR09ovwXYqaU0",
     "googleRating": 4.6,
     "googleReviewCount": 97,
-    "sqft": null,
+    "sqft": 6558,
     "photos": [
       "/photos/ChIJc7r_crlckFQR09ovwXYqaU0-0.jpg",
       "/photos/ChIJc7r_crlckFQR09ovwXYqaU0-1.jpg",
@@ -1389,7 +1389,7 @@
     "googlePlaceId": "ChIJU6YPQ4ZFkFQRUb7W7IT28Ww",
     "googleRating": 5,
     "googleReviewCount": 33,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJU6YPQ4ZFkFQRUb7W7IT28Ww-0.jpg",
       "/photos/ChIJU6YPQ4ZFkFQRUb7W7IT28Ww-1.jpg",
@@ -1421,7 +1421,7 @@
     "googlePlaceId": "ChIJqaXzM-xDkFQRFUoeDKP6YgM",
     "googleRating": 4.4,
     "googleReviewCount": 72,
-    "sqft": null,
+    "sqft": 10000,
     "photos": [
       "/photos/ChIJqaXzM-xDkFQRFUoeDKP6YgM-0.jpg",
       "/photos/ChIJqaXzM-xDkFQRFUoeDKP6YgM-1.jpg",
@@ -1452,7 +1452,7 @@
     "googlePlaceId": "ChIJ18Efb4kLkFQRkM9nVd6eB3I",
     "googleRating": 4.7,
     "googleReviewCount": 92,
-    "sqft": null,
+    "sqft": 15000,
     "photos": [
       "/photos/ChIJ18Efb4kLkFQRkM9nVd6eB3I-0.jpg",
       "/photos/ChIJ18Efb4kLkFQRkM9nVd6eB3I-1.jpg",
@@ -1483,7 +1483,7 @@
     "googlePlaceId": "ChIJAdgmWCBakFQRJ9vZmJ5B1GQ",
     "googleRating": 4.5,
     "googleReviewCount": 95,
-    "sqft": null,
+    "sqft": 9850,
     "photos": [
       "/photos/ChIJAdgmWCBakFQRJ9vZmJ5B1GQ-0.jpg",
       "/photos/ChIJAdgmWCBakFQRJ9vZmJ5B1GQ-1.jpg",

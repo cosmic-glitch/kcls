@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState } from "react";
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import type { Library, UserLocation } from "@/lib/types";
 
@@ -19,7 +19,7 @@ export function MapPanel({
 }: MapPanelProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
-  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
+  const markersRef = useRef<google.maps.Marker[]>([]);
   const [mapReady, setMapReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const initStarted = useRef(false);
@@ -37,8 +37,8 @@ export function MapPanel({
 
     setOptions({ key: apiKey, v: "weekly" });
 
-    Promise.all([importLibrary("maps"), importLibrary("marker")])
-      .then(([mapsLib]) => {
+    importLibrary("maps")
+      .then((mapsLib) => {
         const { Map } = mapsLib as google.maps.MapsLibrary;
         const center = userLocation
           ? { lat: userLocation.lat, lng: userLocation.lng }
@@ -47,7 +47,6 @@ export function MapPanel({
         mapInstanceRef.current = new Map(mapRef.current!, {
           center,
           zoom: 11,
-          mapId: "kcls-finder-map",
           disableDefaultUI: false,
           zoomControl: true,
           streetViewControl: false,
@@ -69,32 +68,30 @@ export function MapPanel({
     if (!map || !mapReady) return;
 
     // Clear old markers
-    markersRef.current.forEach((marker) => (marker.map = null));
+    markersRef.current.forEach((marker) => marker.setMap(null));
     markersRef.current = [];
 
-    const { AdvancedMarkerElement } = google.maps.marker;
-
     libraries.forEach((lib, index) => {
-      const pinContent = document.createElement("div");
-      pinContent.style.cssText = `
-        width:28px;height:28px;background:linear-gradient(135deg,#4f46e5,#7c3aed);
-        border-radius:50% 50% 50% 0;transform:rotate(-45deg);
-        display:flex;align-items:center;justify-content:center;
-        box-shadow:0 3px 8px rgba(79,70,229,0.35);cursor:pointer;
-      `;
-      const letter = document.createElement("span");
-      letter.textContent = String.fromCharCode(65 + (index % 26));
-      letter.style.cssText = `
-        transform:rotate(45deg);font-size:11px;font-weight:700;
-        color:white;font-family:Inter,system-ui,sans-serif;
-      `;
-      pinContent.appendChild(letter);
+      const label = String.fromCharCode(65 + (index % 26));
 
-      const marker = new AdvancedMarkerElement({
+      const marker = new google.maps.Marker({
         map,
         position: { lat: lib.lat, lng: lib.lng },
-        content: pinContent,
         title: lib.name,
+        label: {
+          text: label,
+          color: "white",
+          fontWeight: "700",
+          fontSize: "11px",
+        },
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: "#4f46e5",
+          fillOpacity: 1,
+          strokeColor: "#7c3aed",
+          strokeWeight: 2,
+          scale: 14,
+        },
       });
 
       marker.addListener("click", () => onPinClickRef.current(lib.id));
@@ -102,17 +99,18 @@ export function MapPanel({
     });
 
     if (userLocation) {
-      const userDot = document.createElement("div");
-      userDot.style.cssText = `
-        width:14px;height:14px;background:#10b981;
-        border:3px solid rgba(16,185,129,0.3);border-radius:50%;
-        box-shadow:0 0 12px rgba(16,185,129,0.4);
-      `;
-      const userMarker = new AdvancedMarkerElement({
+      const userMarker = new google.maps.Marker({
         map,
         position: { lat: userLocation.lat, lng: userLocation.lng },
-        content: userDot,
         title: "Your location",
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: "#10b981",
+          fillOpacity: 1,
+          strokeColor: "#059669",
+          strokeWeight: 2,
+          scale: 8,
+        },
       });
       markersRef.current.push(userMarker);
     }
