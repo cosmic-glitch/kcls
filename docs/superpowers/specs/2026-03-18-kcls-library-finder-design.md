@@ -55,7 +55,10 @@ Each library entry in `data/libraries.json`:
     "monday": "10:00 AM - 9:00 PM",
     "tuesday": "10:00 AM - 9:00 PM"
   },
-  "popularTimes": {},
+  "popularTimes": {
+    "monday": [0, 0, 0, 0, 0, 0, 10, 25, 45, 60, 75, 85, 90, 80, 70, 65, 75, 80, 60, 35, 15, 0, 0, 0],
+    "tuesday": [0, 0, 0, 0, 0, 0, 10, 20, 40, 55, 70, 80, 85, 75, 65, 60, 70, 75, 55, 30, 10, 0, 0, 0]
+  },
   "wheelchairAccessible": true,
   "lastUpdated": "2026-03-15"
 }
@@ -66,6 +69,13 @@ Each library entry in `data/libraries.json`:
 - Manual overrides file (`scripts/manual-overrides.json`): sqft and any other supplemental data not available from Google
 
 The `sqft` field is optional. Libraries without it render "—" in the size column and are excluded from size-specific filter values (but shown when filter is "Any").
+
+**Size category thresholds:**
+- Small: < 10,000 sqft
+- Medium: 10,000 – 30,000 sqft
+- Large: > 30,000 sqft
+
+**Popular times format:** Each day is an array of 24 integers (0–100) representing relative busyness per hour (index 0 = midnight, index 12 = noon). Values come from the Google Places API popularity data.
 
 ## Data Refresh Script
 
@@ -95,7 +105,7 @@ Single-page app with three zones:
 
 ### Filter Bar
 Below the top bar. Controls:
-- **Distance**: dropdown — Within 15 / 30 / 45 / 60 min (disabled until location is available)
+- **Distance**: dropdown — Within 15 / 30 / 45 / 60 min driving (disabled until location is available)
 - **Rating**: dropdown — Any / 3+ / 4+ / 4.5+
 - **Size**: dropdown — Any / Small / Medium / Large
 - **Open Now**: toggle switch
