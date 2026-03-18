@@ -114,7 +114,7 @@ export default function Home() {
             now={now}
           />
         </div>
-        <div className={`${showMap ? "flex-1" : "hidden"} md:flex-1 md:block`}>
+        <div className={`${showMap ? "flex-1" : "hidden"} md:flex-1 md:flex md:flex-col`}>
           <MapPanel
             libraries={sorted}
             userLocation={userLocation}
