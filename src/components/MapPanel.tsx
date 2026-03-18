@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import type { Library, UserLocation } from "@/lib/types";
 
@@ -19,21 +19,27 @@ export function MapPanel({
 }: MapPanelProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
-  const markersRef = useRef<Map<string, google.maps.marker.AdvancedMarkerElement>>(new Map());
+  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
+  const [mapReady, setMapReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const initStarted = useRef(false);
 
-  // Initialize map
+  // Initialize map once
   useEffect(() => {
+    if (initStarted.current) return;
+    initStarted.current = true;
+
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
     if (!apiKey || !mapRef.current) {
       setError("Google Maps API key not configured");
       return;
     }
 
-    setOptions({ key: apiKey, v: "weekly", libraries: ["marker"] });
+    setOptions({ key: apiKey, v: "weekly" });
 
-    importLibrary("maps")
-      .then(({ Map }) => {
+    Promise.all([importLibrary("maps"), importLibrary("marker")])
+      .then(([mapsLib]) => {
+        const { Map } = mapsLib as google.maps.MapsLibrary;
         const center = userLocation
           ? { lat: userLocation.lat, lng: userLocation.lng }
           : { lat: 47.6062, lng: -122.1321 };
@@ -48,17 +54,25 @@ export function MapPanel({
           mapTypeControl: false,
           fullscreenControl: false,
         });
+
+        setMapReady(true);
       })
       .catch(() => setError("Failed to load Google Maps"));
   }, []);
 
-  // Update markers when libraries change
+  // Update markers when libraries change or map becomes ready
+  const onPinClickRef = useRef(onPinClick);
+  onPinClickRef.current = onPinClick;
+
   useEffect(() => {
     const map = mapInstanceRef.current;
-    if (!map) return;
+    if (!map || !mapReady) return;
 
+    // Clear old markers
     markersRef.current.forEach((marker) => (marker.map = null));
-    markersRef.current.clear();
+    markersRef.current = [];
+
+    const { AdvancedMarkerElement } = google.maps.marker;
 
     libraries.forEach((lib, index) => {
       const pinContent = document.createElement("div");
@@ -76,15 +90,15 @@ export function MapPanel({
       `;
       pinContent.appendChild(letter);
 
-      const marker = new google.maps.marker.AdvancedMarkerElement({
+      const marker = new AdvancedMarkerElement({
         map,
         position: { lat: lib.lat, lng: lib.lng },
         content: pinContent,
         title: lib.name,
       });
 
-      marker.addListener("click", () => onPinClick(lib.id));
-      markersRef.current.set(lib.id, marker);
+      marker.addListener("click", () => onPinClickRef.current(lib.id));
+      markersRef.current.push(marker);
     });
 
     if (userLocation) {
@@ -94,14 +108,15 @@ export function MapPanel({
         border:3px solid rgba(16,185,129,0.3);border-radius:50%;
         box-shadow:0 0 12px rgba(16,185,129,0.4);
       `;
-      new google.maps.marker.AdvancedMarkerElement({
+      const userMarker = new AdvancedMarkerElement({
         map,
         position: { lat: userLocation.lat, lng: userLocation.lng },
         content: userDot,
         title: "Your location",
       });
+      markersRef.current.push(userMarker);
     }
-  }, [libraries, userLocation, onPinClick]);
+  }, [libraries, userLocation, mapReady]);
 
   if (error) {
     return (
