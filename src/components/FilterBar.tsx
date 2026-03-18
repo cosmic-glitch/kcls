@@ -21,57 +21,62 @@ export function FilterBar({
     onFiltersChange({ ...filters, ...partial });
 
   return (
-    <div className="bg-white px-7 py-3 flex items-center gap-3.5 flex-wrap border-b border-gray-200">
-      {/* Distance filter */}
-      <div className="flex items-center gap-1.5">
-        <span className="text-xs font-semibold uppercase tracking-wide text-gray-400">
+    <div className="bg-white px-7 py-3 flex items-center gap-5 flex-wrap border-b border-gray-200">
+      {/* Distance slider */}
+      <div className="flex items-center gap-2 min-w-[200px]">
+        <span className="text-xs font-semibold uppercase tracking-wide text-gray-400 whitespace-nowrap">
           Distance
         </span>
-        <select
-          value={filters.maxDriveMinutes ?? ""}
-          onChange={(e) =>
-            update({
-              maxDriveMinutes: e.target.value ? Number(e.target.value) : null,
-            })
-          }
-          disabled={!hasLocation}
-          className="bg-gray-50 border border-gray-200 text-gray-700 px-3 py-1.5 rounded-lg text-sm font-normal cursor-pointer hover:border-indigo-400 hover:bg-indigo-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          <option value="">Any</option>
-          <option value="15">Within 15 min</option>
-          <option value="30">Within 30 min</option>
-          <option value="45">Within 45 min</option>
-          <option value="60">Within 60 min</option>
-        </select>
-        {!hasLocation && (
-          <span className="text-xs text-gray-400 italic">
-            Needs location
-          </span>
+        {hasLocation ? (
+          <div className="flex items-center gap-2 flex-1">
+            <input
+              type="range"
+              min={5}
+              max={60}
+              step={5}
+              value={filters.maxDriveMinutes ?? 60}
+              onChange={(e) => {
+                const val = Number(e.target.value);
+                update({ maxDriveMinutes: val >= 60 ? null : val });
+              }}
+              className="flex-1 h-1.5 accent-indigo-600 cursor-pointer"
+            />
+            <span className="text-xs text-gray-600 font-medium w-14 text-right">
+              {filters.maxDriveMinutes
+                ? `≤ ${filters.maxDriveMinutes} min`
+                : "Any"}
+            </span>
+          </div>
+        ) : (
+          <span className="text-xs text-gray-400 italic">Needs location</span>
         )}
       </div>
 
-      {/* Rating filter */}
-      <div className="flex items-center gap-1.5">
-        <span className="text-xs font-semibold uppercase tracking-wide text-gray-400">
+      {/* Rating slider */}
+      <div className="flex items-center gap-2 min-w-[200px]">
+        <span className="text-xs font-semibold uppercase tracking-wide text-gray-400 whitespace-nowrap">
           Rating
         </span>
-        <select
-          value={filters.minRating ?? ""}
-          onChange={(e) =>
-            update({
-              minRating: e.target.value ? Number(e.target.value) : null,
-            })
-          }
-          className="bg-gray-50 border border-gray-200 text-gray-700 px-3 py-1.5 rounded-lg text-sm cursor-pointer hover:border-indigo-400 hover:bg-indigo-50 transition-colors"
-        >
-          <option value="">Any</option>
-          <option value="3">3+ ★</option>
-          <option value="4">4+ ★</option>
-          <option value="4.5">4.5+ ★</option>
-        </select>
+        <div className="flex items-center gap-2 flex-1">
+          <input
+            type="range"
+            min={0}
+            max={50}
+            step={1}
+            value={filters.minRating ? filters.minRating * 10 : 0}
+            onChange={(e) => {
+              const val = Number(e.target.value) / 10;
+              update({ minRating: val > 0 ? val : null });
+            }}
+            className="flex-1 h-1.5 accent-indigo-600 cursor-pointer"
+          />
+          <span className="text-xs text-gray-600 font-medium w-12 text-right">
+            {filters.minRating ? `${filters.minRating.toFixed(1)}+ ★` : "Any"}
+          </span>
+        </div>
       </div>
 
-      {/* Size filter */}
+      {/* Size filter (dropdown — no sqft data available yet) */}
       <div className="flex items-center gap-1.5">
         <span className="text-xs font-semibold uppercase tracking-wide text-gray-400">
           Size

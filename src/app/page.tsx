@@ -29,8 +29,8 @@ export default function Home() {
   });
 
   const [sort, setSort] = useState<SortConfig>({
-    field: "googleRating",
-    direction: "desc",
+    field: "driveTime",
+    direction: "asc",
   });
 
   const now = useMemo(() => new Date(), []);
