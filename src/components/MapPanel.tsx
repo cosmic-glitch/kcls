@@ -59,6 +59,14 @@ export function MapPanel({
       .catch(() => setError("Failed to load Google Maps"));
   }, []);
 
+  // Re-center map when user location changes
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map || !mapReady || !userLocation) return;
+    map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
+    map.setZoom(11);
+  }, [userLocation, mapReady]);
+
   // Update markers when libraries change or map becomes ready
   const onPinClickRef = useRef(onPinClick);
   onPinClickRef.current = onPinClick;
