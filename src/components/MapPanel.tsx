@@ -19,40 +19,36 @@ export function MapPanel({
   highlightedLibraryId,
   onPinClick,
 }: MapPanelProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const mapDivRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.Marker[]>([]);
   const [error, setError] = useState<string | null>(null);
   const hasCenteredOnUser = useRef(false);
+  const [containerHeight, setContainerHeight] = useState(600);
 
-  // Sync map div size with container and handle resize
+  // Measure available height
   useEffect(() => {
-    const container = containerRef.current;
-    const mapDiv = mapDivRef.current;
-    if (!container || !mapDiv) return;
-
-    const syncSize = () => {
-      const { width, height } = container.getBoundingClientRect();
-      mapDiv.style.width = `${width}px`;
-      mapDiv.style.height = `${height}px`;
-      if (map) {
-        google.maps.event.trigger(map, "resize");
+    const updateHeight = () => {
+      const el = mapRef.current?.parentElement;
+      if (el) {
+        const rect = el.getBoundingClientRect();
+        if (rect.height > 0) {
+          setContainerHeight(rect.height);
+        }
       }
     };
-
-    const observer = new ResizeObserver(syncSize);
-    observer.observe(container);
-    syncSize();
-
-    return () => observer.disconnect();
-  }, [map]);
+    updateHeight();
+    window.addEventListener("resize", updateHeight);
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
 
   // Initialize map
   useEffect(() => {
-    const mapDiv = mapDivRef.current;
-    const container = containerRef.current;
-    if (!mapDiv || !container) return;
+    const el = mapRef.current;
+    if (!el) return;
+
+    // Ensure the div has dimensions before creating map
+    if (el.offsetWidth === 0 || el.offsetHeight === 0) return;
 
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
     if (!apiKey) {
@@ -67,30 +63,13 @@ export function MapPanel({
 
     let cancelled = false;
 
-    // Wait for container to have dimensions
-    const waitForSize = new Promise<void>((resolve) => {
-      const check = () => {
-        const { width, height } = container.getBoundingClientRect();
-        if (width > 0 && height > 0) {
-          // Set explicit pixel size on map div
-          mapDiv.style.width = `${width}px`;
-          mapDiv.style.height = `${height}px`;
-          resolve();
-        } else {
-          requestAnimationFrame(check);
-        }
-      };
-      check();
-    });
-
-    waitForSize
-      .then(() => importLibrary("maps"))
+    importLibrary("maps")
       .then((mapsLib) => {
         if (cancelled) return;
         const { Map } = mapsLib as google.maps.MapsLibrary;
 
-        const instance = new Map(mapDiv, {
-          center: { lat: 47.5, lng: -122.2 },
+        const instance = new Map(el, {
+          center: { lat: 47.6, lng: -122.15 },
           zoom: 10,
           disableDefaultUI: false,
           zoomControl: true,
@@ -108,15 +87,14 @@ export function MapPanel({
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [containerHeight]); // Re-init when height changes from 0 to real value
 
-  // Center on user location using fitBounds (more reliable than setCenter)
+  // Center on user location
   useEffect(() => {
     if (!map || !userLocation || hasCenteredOnUser.current) return;
     hasCenteredOnUser.current = true;
-    // Use fitBounds with a small bound around user location — forces tile recalculation
     const bounds = new google.maps.LatLngBounds();
-    const offset = 0.15; // ~10 miles
+    const offset = 0.15;
     bounds.extend({ lat: userLocation.lat - offset, lng: userLocation.lng - offset });
     bounds.extend({ lat: userLocation.lat + offset, lng: userLocation.lng + offset });
     map.fitBounds(bounds);
@@ -183,15 +161,11 @@ export function MapPanel({
 
   if (error) {
     return (
-      <div className="flex-1 bg-gray-100 flex items-center justify-center text-gray-400 text-sm">
+      <div style={{ width: "100%", height: containerHeight }} className="bg-gray-100 flex items-center justify-center text-gray-400 text-sm">
         {error}
       </div>
     );
   }
 
-  return (
-    <div ref={containerRef} className="w-full h-full relative">
-      <div ref={mapDivRef} className="absolute top-0 left-0" />
-    </div>
-  );
+  return <div ref={mapRef} style={{ width: "100%", height: containerHeight }} />;
 }
