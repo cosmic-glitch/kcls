@@ -58,6 +58,12 @@ export function MapPanel({
           fullscreenControl: false,
         });
 
+        // Trigger resize after a delay to ensure the container has dimensions
+        setTimeout(() => {
+          google.maps.event.trigger(instance, "resize");
+          instance.setCenter({ lat: 47.5, lng: -122.2 });
+        }, 200);
+
         setMap(instance);
       })
       .catch(() => {
