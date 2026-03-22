@@ -19,16 +19,40 @@ export function MapPanel({
   highlightedLibraryId,
   onPinClick,
 }: MapPanelProps) {
-  const mapRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapDivRef = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.Marker[]>([]);
   const [error, setError] = useState<string | null>(null);
   const hasCenteredOnUser = useRef(false);
 
+  // Sync map div size with container and handle resize
+  useEffect(() => {
+    const container = containerRef.current;
+    const mapDiv = mapDivRef.current;
+    if (!container || !mapDiv) return;
+
+    const syncSize = () => {
+      const { width, height } = container.getBoundingClientRect();
+      mapDiv.style.width = `${width}px`;
+      mapDiv.style.height = `${height}px`;
+      if (map) {
+        google.maps.event.trigger(map, "resize");
+      }
+    };
+
+    const observer = new ResizeObserver(syncSize);
+    observer.observe(container);
+    syncSize();
+
+    return () => observer.disconnect();
+  }, [map]);
+
   // Initialize map
   useEffect(() => {
-    const el = mapRef.current;
-    if (!el) return;
+    const mapDiv = mapDivRef.current;
+    const container = containerRef.current;
+    if (!mapDiv || !container) return;
 
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
     if (!apiKey) {
@@ -43,27 +67,29 @@ export function MapPanel({
 
     let cancelled = false;
 
-    // Wait for the container to have actual dimensions before creating the map
-    const waitForDimensions = () => {
-      return new Promise<void>((resolve) => {
-        const check = () => {
-          if (el.offsetWidth > 0 && el.offsetHeight > 0) {
-            resolve();
-          } else {
-            requestAnimationFrame(check);
-          }
-        };
-        check();
-      });
-    };
+    // Wait for container to have dimensions
+    const waitForSize = new Promise<void>((resolve) => {
+      const check = () => {
+        const { width, height } = container.getBoundingClientRect();
+        if (width > 0 && height > 0) {
+          // Set explicit pixel size on map div
+          mapDiv.style.width = `${width}px`;
+          mapDiv.style.height = `${height}px`;
+          resolve();
+        } else {
+          requestAnimationFrame(check);
+        }
+      };
+      check();
+    });
 
-    waitForDimensions()
+    waitForSize
       .then(() => importLibrary("maps"))
       .then((mapsLib) => {
         if (cancelled) return;
         const { Map } = mapsLib as google.maps.MapsLibrary;
 
-        const instance = new Map(el, {
+        const instance = new Map(mapDiv, {
           center: { lat: 47.5, lng: -122.2 },
           zoom: 10,
           disableDefaultUI: false,
@@ -88,12 +114,10 @@ export function MapPanel({
   useEffect(() => {
     if (!map || !userLocation || hasCenteredOnUser.current) return;
     hasCenteredOnUser.current = true;
-    // Delay to ensure map tiles are loaded
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
       map.setZoom(11);
-    }, 500);
-    return () => clearTimeout(timer);
+    }, 300);
   }, [map, userLocation]);
 
   // Update markers
@@ -103,7 +127,6 @@ export function MapPanel({
   const updateMarkers = useCallback(() => {
     if (!map) return;
 
-    // Clear old markers
     markersRef.current.forEach((marker) => marker.setMap(null));
     markersRef.current = [];
 
@@ -164,5 +187,9 @@ export function MapPanel({
     );
   }
 
-  return <div ref={mapRef} className="w-full h-full" />;
+  return (
+    <div ref={containerRef} className="w-full h-full relative">
+      <div ref={mapDivRef} className="absolute top-0 left-0" />
+    </div>
+  );
 }
