@@ -110,14 +110,16 @@ export function MapPanel({
     };
   }, []);
 
-  // Center on user location
+  // Center on user location using fitBounds (more reliable than setCenter)
   useEffect(() => {
     if (!map || !userLocation || hasCenteredOnUser.current) return;
     hasCenteredOnUser.current = true;
-    setTimeout(() => {
-      map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
-      map.setZoom(11);
-    }, 300);
+    // Use fitBounds with a small bound around user location — forces tile recalculation
+    const bounds = new google.maps.LatLngBounds();
+    const offset = 0.15; // ~10 miles
+    bounds.extend({ lat: userLocation.lat - offset, lng: userLocation.lng - offset });
+    bounds.extend({ lat: userLocation.lat + offset, lng: userLocation.lng + offset });
+    map.fitBounds(bounds);
   }, [map, userLocation]);
 
   // Update markers
