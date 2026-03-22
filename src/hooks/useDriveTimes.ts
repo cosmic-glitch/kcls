@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import type { Library, UserLocation, DriveTimeResult } from "@/lib/types";
 
 const STORAGE_KEY = "kcls-drive-times";
@@ -66,6 +67,12 @@ export function useDriveTimes(
       setError(null);
 
       try {
+        // Ensure Google Maps API is loaded (on mobile, MapPanel may not be rendered)
+        const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
+        if (!apiKey) throw new Error("Google Maps API key not configured");
+        setOptions({ key: apiKey, v: "weekly" });
+        await importLibrary("maps");
+
         const service = new google.maps.DistanceMatrixService();
         const origin = { lat: userLocation!.lat, lng: userLocation!.lng };
         const results: DriveTimeResult[] = [];
