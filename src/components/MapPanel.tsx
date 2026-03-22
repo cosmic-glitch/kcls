@@ -43,7 +43,22 @@ export function MapPanel({
 
     let cancelled = false;
 
-    importLibrary("maps")
+    // Wait for the container to have actual dimensions before creating the map
+    const waitForDimensions = () => {
+      return new Promise<void>((resolve) => {
+        const check = () => {
+          if (el.offsetWidth > 0 && el.offsetHeight > 0) {
+            resolve();
+          } else {
+            requestAnimationFrame(check);
+          }
+        };
+        check();
+      });
+    };
+
+    waitForDimensions()
+      .then(() => importLibrary("maps"))
       .then((mapsLib) => {
         if (cancelled) return;
         const { Map } = mapsLib as google.maps.MapsLibrary;
@@ -57,12 +72,6 @@ export function MapPanel({
           mapTypeControl: false,
           fullscreenControl: false,
         });
-
-        // Trigger resize after a delay to ensure the container has dimensions
-        setTimeout(() => {
-          google.maps.event.trigger(instance, "resize");
-          instance.setCenter({ lat: 47.5, lng: -122.2 });
-        }, 200);
 
         setMap(instance);
       })
