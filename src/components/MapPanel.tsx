@@ -23,6 +23,7 @@ export function MapPanel({
   const [mapReady, setMapReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const initStarted = useRef(false);
+  const hasCenteredOnUser = useRef(false);
 
   // Initialize map once
   useEffect(() => {
@@ -40,13 +41,10 @@ export function MapPanel({
     importLibrary("maps")
       .then((mapsLib) => {
         const { Map } = mapsLib as google.maps.MapsLibrary;
-        const center = userLocation
-          ? { lat: userLocation.lat, lng: userLocation.lng }
-          : { lat: 47.6062, lng: -122.1321 };
 
         mapInstanceRef.current = new Map(mapRef.current!, {
-          center,
-          zoom: 11,
+          center: { lat: 47.5, lng: -122.2 },
+          zoom: 10,
           disableDefaultUI: false,
           zoomControl: true,
           streetViewControl: false,
@@ -59,9 +57,21 @@ export function MapPanel({
       .catch(() => setError("Failed to load Google Maps"));
   }, []);
 
-  // Update markers and center map
+  // Center on user location — runs once when we first get a location
+  useEffect(() => {
+    if (!mapReady || !userLocation || hasCenteredOnUser.current) return;
+    const map = mapInstanceRef.current;
+    if (!map) return;
+    hasCenteredOnUser.current = true;
+    map.panTo({ lat: userLocation.lat, lng: userLocation.lng });
+    map.setZoom(11);
+  }, [mapReady, userLocation]);
+
+  // Update markers when libraries change
   const onPinClickRef = useRef(onPinClick);
   onPinClickRef.current = onPinClick;
+  const userLocationRef = useRef(userLocation);
+  userLocationRef.current = userLocation;
 
   useEffect(() => {
     const map = mapInstanceRef.current;
@@ -98,10 +108,11 @@ export function MapPanel({
       markersRef.current.push(marker);
     });
 
-    if (userLocation) {
+    const loc = userLocationRef.current;
+    if (loc) {
       const userMarker = new google.maps.Marker({
         map,
-        position: { lat: userLocation.lat, lng: userLocation.lng },
+        position: { lat: loc.lat, lng: loc.lng },
         title: "Your location",
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
@@ -113,12 +124,8 @@ export function MapPanel({
         },
       });
       markersRef.current.push(userMarker);
-
-      // Center on user location after markers are placed
-      map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
-      map.setZoom(11);
     }
-  }, [libraries, userLocation, mapReady]);
+  }, [libraries, mapReady]);
 
   if (error) {
     return (
