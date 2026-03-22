@@ -59,10 +59,12 @@ export function MapPanel({
 
   // Center on user location — runs once when we first get a location
   useEffect(() => {
+    console.log("[MapPanel center] mapReady:", mapReady, "userLocation:", userLocation, "hasCentered:", hasCenteredOnUser.current);
     if (!mapReady || !userLocation || hasCenteredOnUser.current) return;
     const map = mapInstanceRef.current;
     if (!map) return;
     hasCenteredOnUser.current = true;
+    console.log("[MapPanel center] Centering on:", userLocation.lat, userLocation.lng);
     map.panTo({ lat: userLocation.lat, lng: userLocation.lng });
     map.setZoom(11);
   }, [mapReady, userLocation]);
