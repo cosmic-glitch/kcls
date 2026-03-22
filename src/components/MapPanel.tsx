@@ -24,30 +24,13 @@ export function MapPanel({
   const markersRef = useRef<google.maps.Marker[]>([]);
   const [error, setError] = useState<string | null>(null);
   const hasCenteredOnUser = useRef(false);
-  const [containerHeight, setContainerHeight] = useState(600);
-
-  // Measure available height
-  useEffect(() => {
-    const updateHeight = () => {
-      const el = mapRef.current?.parentElement;
-      if (el) {
-        const rect = el.getBoundingClientRect();
-        if (rect.height > 0) {
-          setContainerHeight(rect.height);
-        }
-      }
-    };
-    updateHeight();
-    window.addEventListener("resize", updateHeight);
-    return () => window.removeEventListener("resize", updateHeight);
-  }, []);
+  // No dynamic height measurement — use CSS calc directly
 
   // Initialize map
   useEffect(() => {
     const el = mapRef.current;
     if (!el) return;
 
-    // Ensure the div has dimensions before creating map
     if (el.offsetWidth === 0 || el.offsetHeight === 0) return;
 
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
@@ -87,7 +70,7 @@ export function MapPanel({
     return () => {
       cancelled = true;
     };
-  }, [containerHeight]); // Re-init when height changes from 0 to real value
+  }, []);
 
   // Center on user location
   useEffect(() => {
@@ -161,11 +144,11 @@ export function MapPanel({
 
   if (error) {
     return (
-      <div style={{ width: "100%", height: containerHeight }} className="bg-gray-100 flex items-center justify-center text-gray-400 text-sm">
+      <div className="w-full h-full bg-gray-100 flex items-center justify-center text-gray-400 text-sm">
         {error}
       </div>
     );
   }
 
-  return <div ref={mapRef} style={{ width: "100%", height: containerHeight }} />;
+  return <div ref={mapRef} style={{ width: "100%", height: "100%" }} />;
 }

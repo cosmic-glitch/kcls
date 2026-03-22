@@ -114,7 +114,7 @@ export default function AppContent() {
             now={now}
           />
         </div>
-        <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1 md:flex md:flex-col`}>
+        <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1`} style={{ height: "calc(100vh - 120px)" }}>
           <MapPanel
             libraries={sorted}
             userLocation={userLocation}
