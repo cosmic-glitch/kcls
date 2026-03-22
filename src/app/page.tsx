@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import librariesData from "@/data/libraries.json";
 import type { Library, Filters, SortConfig, UserLocation } from "@/lib/types";
 import { filterLibraries, sortLibraries } from "@/lib/filters";
@@ -33,10 +33,16 @@ export default function Home() {
     direction: "asc",
   });
 
-  const now = useMemo(() => new Date(), []);
+  // Defer `now` to client-side to avoid hydration mismatch
+  const [now, setNow] = useState<Date | null>(null);
+  useEffect(() => {
+    setNow(new Date());
+  }, []);
+
+  const clientNow = now ?? new Date();
 
   const filtered = useMemo(
-    () => filterLibraries(libraries, filters, driveTimes, now),
+    () => filterLibraries(libraries, filters, driveTimes, clientNow),
     [filters, driveTimes, now]
   );
 
@@ -111,7 +117,7 @@ export default function Home() {
             driveTimes={driveTimes}
             sort={sort}
             onSortChange={setSort}
-            now={now}
+            now={clientNow}
           />
         </div>
         <div className={`${showMap ? "flex-1" : "hidden"} md:flex-1 md:flex md:flex-col`}>

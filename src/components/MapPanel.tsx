@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import type { Library, UserLocation } from "@/lib/types";
 
@@ -11,6 +11,8 @@ interface MapPanelProps {
   onPinClick: (libraryId: string) => void;
 }
 
+let mapsLoaded = false;
+
 export function MapPanel({
   libraries,
   userLocation,
@@ -18,31 +20,35 @@ export function MapPanel({
   onPinClick,
 }: MapPanelProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstanceRef = useRef<google.maps.Map | null>(null);
+  const [map, setMap] = useState<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.Marker[]>([]);
-  const [mapReady, setMapReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const initStarted = useRef(false);
   const hasCenteredOnUser = useRef(false);
 
-  // Initialize map once
+  // Initialize map
   useEffect(() => {
-    if (initStarted.current) return;
-    initStarted.current = true;
+    const el = mapRef.current;
+    if (!el) return;
 
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
-    if (!apiKey || !mapRef.current) {
+    if (!apiKey) {
       setError("Google Maps API key not configured");
       return;
     }
 
-    setOptions({ key: apiKey, v: "weekly" });
+    if (!mapsLoaded) {
+      setOptions({ key: apiKey, v: "weekly" });
+      mapsLoaded = true;
+    }
+
+    let cancelled = false;
 
     importLibrary("maps")
       .then((mapsLib) => {
+        if (cancelled) return;
         const { Map } = mapsLib as google.maps.MapsLibrary;
 
-        mapInstanceRef.current = new Map(mapRef.current!, {
+        const instance = new Map(el, {
           center: { lat: 47.5, lng: -122.2 },
           zoom: 10,
           disableDefaultUI: false,
@@ -52,32 +58,35 @@ export function MapPanel({
           fullscreenControl: false,
         });
 
-        setMapReady(true);
+        setMap(instance);
       })
-      .catch(() => setError("Failed to load Google Maps"));
+      .catch(() => {
+        if (!cancelled) setError("Failed to load Google Maps");
+      });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  // Center on user location — runs once when we first get a location
+  // Center on user location
   useEffect(() => {
-    console.log("[MapPanel center] mapReady:", mapReady, "userLocation:", userLocation, "hasCentered:", hasCenteredOnUser.current);
-    if (!mapReady || !userLocation || hasCenteredOnUser.current) return;
-    const map = mapInstanceRef.current;
-    if (!map) return;
+    if (!map || !userLocation || hasCenteredOnUser.current) return;
     hasCenteredOnUser.current = true;
-    console.log("[MapPanel center] Centering on:", userLocation.lat, userLocation.lng);
-    map.panTo({ lat: userLocation.lat, lng: userLocation.lng });
-    map.setZoom(11);
-  }, [mapReady, userLocation]);
+    // Delay to ensure map tiles are loaded
+    const timer = setTimeout(() => {
+      map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
+      map.setZoom(11);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [map, userLocation]);
 
-  // Update markers when libraries change
+  // Update markers
   const onPinClickRef = useRef(onPinClick);
   onPinClickRef.current = onPinClick;
-  const userLocationRef = useRef(userLocation);
-  userLocationRef.current = userLocation;
 
-  useEffect(() => {
-    const map = mapInstanceRef.current;
-    if (!map || !mapReady) return;
+  const updateMarkers = useCallback(() => {
+    if (!map) return;
 
     // Clear old markers
     markersRef.current.forEach((marker) => marker.setMap(null));
@@ -110,11 +119,10 @@ export function MapPanel({
       markersRef.current.push(marker);
     });
 
-    const loc = userLocationRef.current;
-    if (loc) {
+    if (userLocation) {
       const userMarker = new google.maps.Marker({
         map,
-        position: { lat: loc.lat, lng: loc.lng },
+        position: { lat: userLocation.lat, lng: userLocation.lng },
         title: "Your location",
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
@@ -126,13 +134,12 @@ export function MapPanel({
         },
       });
       markersRef.current.push(userMarker);
-
-      // Always re-center on user after placing markers
-      console.log("[MapPanel markers] Re-centering on user after markers placed");
-      map.setCenter({ lat: loc.lat, lng: loc.lng });
-      map.setZoom(11);
     }
-  }, [libraries, mapReady]);
+  }, [map, libraries, userLocation]);
+
+  useEffect(() => {
+    updateMarkers();
+  }, [updateMarkers]);
 
   if (error) {
     return (
