@@ -126,6 +126,11 @@ export function MapPanel({
         },
       });
       markersRef.current.push(userMarker);
+
+      // Always re-center on user after placing markers
+      console.log("[MapPanel markers] Re-centering on user after markers placed");
+      map.setCenter({ lat: loc.lat, lng: loc.lng });
+      map.setZoom(11);
     }
   }, [libraries, mapReady]);
 
