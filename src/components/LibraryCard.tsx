@@ -10,6 +10,7 @@ interface LibraryCardProps {
   isExpanded: boolean;
   onClick: () => void;
   now: Date;
+  majorityHours: string | null;
 }
 
 const SIZE_BADGE_STYLES = {
@@ -36,9 +37,11 @@ export function LibraryCard({
   isExpanded,
   onClick,
   now,
+  majorityHours,
 }: LibraryCardProps) {
   const open = isOpenNow(library.hours, now);
   const todayHours = getTodayHours(library.hours, now);
+  const hasDifferentHours = open && todayHours !== null && todayHours !== majorityHours;
   const sizeCategory = getSizeCategory(library.sqft);
 
   return (
@@ -58,14 +61,19 @@ export function LibraryCard({
         <div className="text-xs text-gray-400 mt-0.5 truncate">
           {library.address}
         </div>
-        <div className="mt-1">
+        <div className="mt-1 flex items-center gap-1.5">
           {open ? (
             <span className="inline-block text-[11px] font-medium px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-600 border border-emerald-200">
-              ● Open{todayHours ? ` until ${todayHours.split(" - ")[1]}` : ""}
+              ● Open
             </span>
           ) : (
             <span className="inline-block text-[11px] font-medium px-2 py-0.5 rounded-md bg-orange-50 text-orange-600 border border-orange-200">
               ● Closed
+            </span>
+          )}
+          {hasDifferentHours && (
+            <span className="text-[10px] text-gray-400 italic">
+              Different hours
             </span>
           )}
         </div>

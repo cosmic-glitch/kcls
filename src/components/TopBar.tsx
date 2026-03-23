@@ -6,9 +6,10 @@ interface TopBarProps {
   location: UserLocation | null;
   locationLoading: boolean;
   locationError: string | null;
+  todayHours: string | null;
 }
 
-export function TopBar({ location, locationLoading, locationError }: TopBarProps) {
+export function TopBar({ location, locationLoading, locationError, todayHours }: TopBarProps) {
   return (
     <header className="bg-white px-7 py-3 flex items-center justify-between border-b border-gray-200 shadow-sm">
       <div className="flex items-center gap-2.5">
@@ -20,6 +21,13 @@ export function TopBar({ location, locationLoading, locationError }: TopBarProps
           <span className="text-indigo-600">Finder</span>
         </span>
       </div>
+
+      {todayHours && (
+        <div className="text-sm text-gray-500">
+          Today:{" "}
+          <span className="font-semibold text-gray-700">{todayHours}</span>
+        </div>
+      )}
 
       <div className="flex items-center gap-2 bg-indigo-50 border border-indigo-100 px-4 py-2 rounded-full text-sm text-gray-600">
         {locationLoading ? (

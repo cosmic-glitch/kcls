@@ -4,6 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import librariesData from "@/data/libraries.json";
 import type { Library, Filters, SortConfig, UserLocation } from "@/lib/types";
 import { filterLibraries, sortLibraries } from "@/lib/filters";
+import { getMajorityHours } from "@/lib/time";
 import { useGeolocation } from "@/hooks/useGeolocation";
 import { useDriveTimes } from "@/hooks/useDriveTimes";
 import { TopBar } from "@/components/TopBar";
@@ -34,6 +35,7 @@ export default function AppContent() {
   });
 
   const now = useMemo(() => new Date(), []);
+  const majorityHours = useMemo(() => getMajorityHours(libraries, now), [now]);
 
   const filtered = useMemo(
     () => filterLibraries(libraries, filters, driveTimes, now),
@@ -60,6 +62,7 @@ export default function AppContent() {
         location={userLocation}
         locationLoading={geoLoading}
         locationError={geoError}
+        todayHours={majorityHours}
       />
 
       {showLocationPrompt && (
@@ -112,6 +115,7 @@ export default function AppContent() {
             sort={sort}
             onSortChange={setSort}
             now={now}
+            majorityHours={majorityHours}
           />
         </div>
         <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1`} style={{ height: "calc(100vh - 120px)" }}>

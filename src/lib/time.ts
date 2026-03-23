@@ -43,6 +43,27 @@ export function isOpenNow(
   return currentMinutes >= openMinutes && currentMinutes < closeMinutes;
 }
 
+export function getMajorityHours(
+  libraries: { hours: Record<string, string> }[],
+  now: Date = new Date()
+): string | null {
+  const day = DAY_NAMES[now.getDay()];
+  const counts = new Map<string, number>();
+  for (const lib of libraries) {
+    const h = lib.hours[day];
+    if (h) counts.set(h, (counts.get(h) ?? 0) + 1);
+  }
+  let best: string | null = null;
+  let bestCount = 0;
+  for (const [h, c] of counts) {
+    if (c > bestCount) {
+      best = h;
+      bestCount = c;
+    }
+  }
+  return best;
+}
+
 export function getCurrentBusyness(
   popularTimes: Record<string, number[]>,
   now: Date = new Date()

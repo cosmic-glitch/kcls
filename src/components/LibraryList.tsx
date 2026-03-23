@@ -11,6 +11,7 @@ interface LibraryListProps {
   sort: SortConfig;
   onSortChange: (sort: SortConfig) => void;
   now: Date;
+  majorityHours: string | null;
 }
 
 const COLUMNS: { label: string; field: SortField; flex: string }[] = [
@@ -27,6 +28,7 @@ export function LibraryList({
   sort,
   onSortChange,
   now,
+  majorityHours,
 }: LibraryListProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
@@ -92,6 +94,7 @@ export function LibraryList({
             isExpanded={expandedId === lib.id}
             onClick={() => handleCardClick(lib.id)}
             now={now}
+            majorityHours={majorityHours}
           />
           {expandedId === lib.id && (
             <LibraryDetail
