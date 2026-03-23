@@ -48,7 +48,6 @@ export default function AppContent() {
   );
 
   const [highlightedId, setHighlightedId] = useState<string | null>(null);
-  const [showMap, setShowMap] = useState(false);
 
   const handlePinClick = useCallback((libraryId: string) => {
     setHighlightedId(libraryId);
@@ -75,32 +74,17 @@ export default function AppContent() {
         </div>
       )}
 
-      {/* Mobile list/map toggle */}
-      <div className="md:hidden flex border-b border-gray-200 bg-white">
-        <button
-          onClick={() => setShowMap(false)}
-          className={`flex-1 py-2 text-xs font-semibold text-center transition-colors ${
-            !showMap
-              ? "text-indigo-600 border-b-2 border-indigo-600"
-              : "text-gray-400"
-          }`}
-        >
-          List
-        </button>
-        <button
-          onClick={() => setShowMap(true)}
-          className={`flex-1 py-2 text-xs font-semibold text-center transition-colors ${
-            showMap
-              ? "text-indigo-600 border-b-2 border-indigo-600"
-              : "text-gray-400"
-          }`}
-        >
-          Map
-        </button>
-      </div>
-
-      <div className="flex flex-1 min-h-0" style={{ height: "calc(100vh - 170px)" }}>
-        <div className={`${showMap ? "hidden" : "flex-1"} md:flex-[0_0_58%] md:block overflow-y-auto border-r border-gray-200`}>
+      {/* Mobile: stacked map + list */}
+      <div className="md:hidden flex flex-col" style={{ height: "calc(100vh - 110px)" }}>
+        <div style={{ height: "200px", minHeight: "200px" }}>
+          <MapPanel
+            libraries={sorted}
+            userLocation={userLocation}
+            highlightedLibraryId={highlightedId}
+            onPinClick={handlePinClick}
+          />
+        </div>
+        <div className="flex-1 overflow-y-auto">
           <LibraryList
             libraries={sorted}
             driveTimes={driveTimes}
@@ -110,7 +94,21 @@ export default function AppContent() {
             majorityHours={majorityHours}
           />
         </div>
-        <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1`} style={{ height: "calc(100vh - 170px)" }}>
+      </div>
+
+      {/* Desktop: side-by-side */}
+      <div className="hidden md:flex flex-1 min-h-0" style={{ height: "calc(100vh - 170px)" }}>
+        <div className="flex-[0_0_58%] overflow-y-auto border-r border-gray-200">
+          <LibraryList
+            libraries={sorted}
+            driveTimes={driveTimes}
+            sort={sort}
+            onSortChange={setSort}
+            now={now}
+            majorityHours={majorityHours}
+          />
+        </div>
+        <div className="flex-1" style={{ height: "calc(100vh - 170px)" }}>
           <MapPanel
             libraries={sorted}
             userLocation={userLocation}

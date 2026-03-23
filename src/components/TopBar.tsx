@@ -29,7 +29,7 @@ export function TopBar({ location, locationLoading, locationError, todayHours }:
         </div>
       )}
 
-      <div className="flex items-center gap-2 bg-indigo-50 border border-indigo-100 px-4 py-2 rounded-full text-sm text-gray-600">
+      <div className="hidden md:flex items-center gap-2 bg-indigo-50 border border-indigo-100 px-4 py-2 rounded-full text-sm text-gray-600">
         {locationLoading ? (
           <>
             <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse" />
