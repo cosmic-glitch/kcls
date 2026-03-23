@@ -72,13 +72,25 @@ export function MapPanel({
     };
   }, []);
 
-  // Center on user location
+  // Center on user location — fit bounds to nearest ~8 libraries
   useEffect(() => {
-    if (!map || !userLocation || hasCenteredOnUser.current) return;
+    if (!map || !userLocation || hasCenteredOnUser.current || libraries.length === 0) return;
     hasCenteredOnUser.current = true;
-    map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
-    map.setZoom(12);
-  }, [map, userLocation]);
+
+    const withDist = libraries.map((lib) => ({
+      lib,
+      dist: Math.pow(lib.lat - userLocation.lat, 2) + Math.pow(lib.lng - userLocation.lng, 2),
+    }));
+    withDist.sort((a, b) => a.dist - b.dist);
+    const nearest = withDist.slice(0, 8);
+
+    const bounds = new google.maps.LatLngBounds();
+    bounds.extend({ lat: userLocation.lat, lng: userLocation.lng });
+    for (const { lib } of nearest) {
+      bounds.extend({ lat: lib.lat, lng: lib.lng });
+    }
+    map.fitBounds(bounds, 20);
+  }, [map, userLocation, libraries]);
 
   // Update markers
   const onPinClickRef = useRef(onPinClick);
