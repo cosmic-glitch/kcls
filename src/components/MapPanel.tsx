@@ -113,7 +113,7 @@ export function MapPanel({
           text: label,
           color: "white",
           fontWeight: "700",
-          fontSize: "11px",
+          fontSize: "9px",
         },
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
@@ -121,7 +121,7 @@ export function MapPanel({
           fillOpacity: 1,
           strokeColor: "#7c3aed",
           strokeWeight: 2,
-          scale: 14,
+          scale: 10,
         },
       });
 

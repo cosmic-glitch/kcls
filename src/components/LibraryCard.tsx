@@ -50,7 +50,7 @@ export function LibraryCard({
   return (
     <div
       onClick={onClick}
-      className={`flex items-center px-5 py-4 cursor-pointer transition-all relative border-b border-gray-100 ${
+      className={`flex items-center px-5 py-2.5 cursor-pointer transition-all relative border-b border-gray-100 ${
         isExpanded
           ? "bg-indigo-50/50 border-l-[3px] border-l-indigo-600"
           : "hover:bg-indigo-50/30 border-l-[3px] border-l-transparent hover:border-l-indigo-400"
@@ -103,9 +103,7 @@ export function LibraryCard({
         {library.sqft ? (
           <>
             <div className="text-sm text-gray-600">
-              {library.sqft >= 1000
-                ? `${Math.round(library.sqft / 1000)}K ft²`
-                : `${library.sqft} ft²`}
+              {library.sqft.toLocaleString()}
             </div>
             {sizeCategory && (
               <span
