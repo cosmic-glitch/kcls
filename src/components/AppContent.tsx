@@ -69,14 +69,6 @@ export default function AppContent() {
         <LocationPrompt onLocationSet={setManualLocation} />
       )}
 
-      <FilterBar
-        filters={filters}
-        onFiltersChange={setFilters}
-        totalCount={libraries.length}
-        filteredCount={sorted.length}
-        hasLocation={!!userLocation}
-      />
-
       {driveLoading && (
         <div className="bg-indigo-50 border-b border-indigo-100 px-7 py-2 text-xs text-indigo-600 font-medium">
           Calculating drive times...
@@ -107,7 +99,7 @@ export default function AppContent() {
         </button>
       </div>
 
-      <div className="flex flex-1 min-h-0" style={{ height: "calc(100vh - 120px)" }}>
+      <div className="flex flex-1 min-h-0" style={{ height: "calc(100vh - 170px)" }}>
         <div className={`${showMap ? "hidden" : "flex-1"} md:flex-[0_0_58%] md:block overflow-y-auto border-r border-gray-200`}>
           <LibraryList
             libraries={sorted}
@@ -118,7 +110,7 @@ export default function AppContent() {
             majorityHours={majorityHours}
           />
         </div>
-        <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1`} style={{ height: "calc(100vh - 120px)" }}>
+        <div className={`${showMap ? "flex-1" : "max-md:hidden"} md:flex-1`} style={{ height: "calc(100vh - 170px)" }}>
           <MapPanel
             libraries={sorted}
             userLocation={userLocation}
@@ -127,6 +119,14 @@ export default function AppContent() {
           />
         </div>
       </div>
+
+      <FilterBar
+        filters={filters}
+        onFiltersChange={setFilters}
+        totalCount={libraries.length}
+        filteredCount={sorted.length}
+        hasLocation={!!userLocation}
+      />
     </main>
   );
 }

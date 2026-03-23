@@ -16,10 +16,9 @@ interface LibraryListProps {
 
 const COLUMNS: { label: string; field: SortField; flex: string }[] = [
   { label: "Library", field: "name", flex: "flex-[2.2]" },
-  { label: "Rating", field: "googleRating", flex: "flex-[0.7] text-center" },
-  { label: "Reviews", field: "googleReviewCount", flex: "flex-[0.6] text-center" },
   { label: "Drive", field: "driveTime", flex: "flex-[0.7] text-center" },
   { label: "Size", field: "sqft", flex: "flex-[0.6] text-center" },
+  { label: "Google Rating", field: "googleRating", flex: "flex-[0.8] text-center" },
 ];
 
 export function LibraryList({

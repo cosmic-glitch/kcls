@@ -20,14 +20,17 @@ const SIZE_BADGE_STYLES = {
 } as const;
 
 function StarRating({ rating }: { rating: number }) {
-  const fullStars = Math.floor(rating);
-  const hasHalf = rating - fullStars >= 0.25;
+  const percentage = (rating / 5) * 100;
   return (
-    <span className="text-[10px] text-amber-500 tracking-wider">
-      {"★".repeat(fullStars)}
-      {hasHalf ? "★" : ""}
-      {"☆".repeat(5 - fullStars - (hasHalf ? 1 : 0))}
-    </span>
+    <div className="relative inline-block text-[10px] leading-none">
+      <span className="text-gray-300 tracking-wider">★★★★★</span>
+      <span
+        className="absolute top-0 left-0 text-amber-500 tracking-wider overflow-hidden whitespace-nowrap"
+        style={{ width: `${percentage}%` }}
+      >
+        ★★★★★
+      </span>
+    </div>
   );
 }
 
@@ -79,19 +82,6 @@ export function LibraryCard({
         </div>
       </div>
 
-      {/* Rating */}
-      <div className="flex-[0.7] text-center">
-        <div className="font-bold text-[15px] text-gray-900">
-          {library.googleRating}
-        </div>
-        <StarRating rating={library.googleRating} />
-      </div>
-
-      {/* Reviews */}
-      <div className="flex-[0.6] text-center text-sm text-gray-500">
-        {library.googleReviewCount}
-      </div>
-
       {/* Drive time */}
       <div className="flex-[0.7] text-center">
         {driveTime ? (
@@ -128,6 +118,17 @@ export function LibraryCard({
         ) : (
           <div className="text-sm text-gray-300">—</div>
         )}
+      </div>
+
+      {/* Google Rating + Reviews */}
+      <div className="flex-[0.8] text-center">
+        <div className="font-bold text-[15px] text-gray-900">
+          {library.googleRating}
+        </div>
+        <StarRating rating={library.googleRating} />
+        <div className="text-[10px] text-gray-400 mt-0.5">
+          {library.googleReviewCount} reviews
+        </div>
       </div>
     </div>
   );
