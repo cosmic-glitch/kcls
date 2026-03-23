@@ -76,11 +76,8 @@ export function MapPanel({
   useEffect(() => {
     if (!map || !userLocation || hasCenteredOnUser.current) return;
     hasCenteredOnUser.current = true;
-    const bounds = new google.maps.LatLngBounds();
-    const offset = 0.15;
-    bounds.extend({ lat: userLocation.lat - offset, lng: userLocation.lng - offset });
-    bounds.extend({ lat: userLocation.lat + offset, lng: userLocation.lng + offset });
-    map.fitBounds(bounds);
+    map.setCenter({ lat: userLocation.lat, lng: userLocation.lng });
+    map.setZoom(12);
   }, [map, userLocation]);
 
   // Update markers
