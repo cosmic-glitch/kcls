@@ -82,7 +82,7 @@ export function MapPanel({
       dist: Math.pow(lib.lat - userLocation.lat, 2) + Math.pow(lib.lng - userLocation.lng, 2),
     }));
     withDist.sort((a, b) => a.dist - b.dist);
-    const nearest = withDist.slice(0, 8);
+    const nearest = withDist.slice(0, 5);
 
     const bounds = new google.maps.LatLngBounds();
     bounds.extend({ lat: userLocation.lat, lng: userLocation.lng });

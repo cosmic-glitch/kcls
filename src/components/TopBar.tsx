@@ -22,9 +22,9 @@ export function TopBar({ location, locationLoading, locationError, todayHours }:
       </div>
 
       {todayHours && (
-        <div className="text-sm text-gray-500">
-          Today:{" "}
-          <span className="font-semibold text-gray-700">{todayHours}</span>
+        <div className="text-center leading-tight">
+          <div className="text-[10px] text-gray-400 uppercase tracking-wide">Today</div>
+          <div className="text-xs font-semibold text-gray-700">{todayHours}</div>
         </div>
       )}
 
