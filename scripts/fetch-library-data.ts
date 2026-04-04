@@ -1,4 +1,5 @@
-import { KCLS_BRANCHES } from "./kcls-branches";
+import { LIBRARY_BRANCHES } from "./library-branches";
+import type { LibrarySystem } from "../src/lib/types";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -7,11 +8,18 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 if (!API_KEY) {
   console.error("Error: GOOGLE_API_KEY environment variable is required.");
   console.error("Usage: GOOGLE_API_KEY=xxx npx tsx scripts/fetch-library-data.ts");
+  console.error("Optional: --system <key> to fetch only one system (e.g., --system spl)");
   process.exit(1);
 }
 
+// Parse --system flag for single-system fetching
+const systemArg = process.argv.indexOf("--system");
+const targetSystem: LibrarySystem | null =
+  systemArg !== -1 ? (process.argv[systemArg + 1] as LibrarySystem) : null;
+
 interface PlaceResult {
   id: string;
+  system: LibrarySystem;
   name: string;
   address: string;
   lat: number;
@@ -125,14 +133,28 @@ function formatTime(time: string): string {
   return `${h}:${min} ${period}`;
 }
 
-function toId(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/\s*kcls\s*/gi, "")
+// Strip system-specific suffixes and generate a slug, prefixed by system key
+const SYSTEM_SUFFIXES = [
+  /\s*kcls\s*/gi,
+  /\s*seattle public library\s*/gi,
+  /\s*sno-isle libraries\s*/gi,
+  /\s*everett public library\s*/gi,
+  /\s*pierce county library\s*/gi,
+  /\s*tacoma public library\s*/gi,
+];
+
+function toId(name: string, system: LibrarySystem): string {
+  let slug = name.toLowerCase();
+  for (const suffix of SYSTEM_SUFFIXES) {
+    slug = slug.replace(suffix, "");
+  }
+  slug = slug
     .replace(/library connection @ /gi, "")
     .replace(/\s+library$/i, "")
+    .replace(/\s+branch$/i, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
+  return `${system}-${slug}`;
 }
 
 async function main() {
@@ -148,53 +170,62 @@ async function main() {
   const results: PlaceResult[] = [];
   const today = new Date().toISOString().split("T")[0];
 
-  for (const branchName of KCLS_BRANCHES) {
-    console.log(`Fetching: ${branchName}...`);
+  // Determine which systems to fetch
+  const systemsToFetch = targetSystem
+    ? { [targetSystem]: LIBRARY_BRANCHES[targetSystem] }
+    : LIBRARY_BRANCHES;
 
-    try {
-      const placeId = await findPlace(branchName);
-      if (!placeId) {
-        console.warn(`  ⚠ Could not find place for: ${branchName}`);
-        continue;
+  for (const [systemKey, branches] of Object.entries(systemsToFetch)) {
+    const system = systemKey as LibrarySystem;
+    console.log(`\n=== ${systemKey.toUpperCase()} (${branches.length} branches) ===\n`);
+
+    for (const branchName of branches) {
+      console.log(`Fetching: ${branchName}...`);
+
+      try {
+        const placeId = await findPlace(branchName);
+        if (!placeId) {
+          console.warn(`  ⚠ Could not find place for: ${branchName}`);
+          continue;
+        }
+
+        const details = await getPlaceDetails(placeId);
+        if (!details) {
+          console.warn(`  ⚠ Could not get details for: ${branchName}`);
+          continue;
+        }
+
+        const id = toId(branchName, system);
+        const override = overrides[id] ?? {};
+
+        results.push({
+          id,
+          system,
+          name: details.name ?? branchName,
+          address: details.address ?? "",
+          lat: details.lat ?? 0,
+          lng: details.lng ?? 0,
+          phone: details.phone ?? "",
+          website: details.website ?? "",
+          googlePlaceId: details.googlePlaceId ?? placeId,
+          googleRating: details.googleRating ?? 0,
+          googleReviewCount: details.googleReviewCount ?? 0,
+          sqft: override.sqft ?? null,
+          photos: details.photos ?? [],
+          hours: details.hours ?? {},
+          popularTimes: override.popularTimes ?? {},
+          wheelchairAccessible: details.wheelchairAccessible ?? false,
+          lastUpdated: today,
+          ...override,
+        });
+
+        console.log(`  ✓ ${details.name} (${details.googleRating}★, ${details.googleReviewCount} reviews)`);
+
+        // Rate limit: 150ms between requests
+        await new Promise((r) => setTimeout(r, 150));
+      } catch (err) {
+        console.error(`  ✗ Error fetching ${branchName}:`, err);
       }
-
-      const details = await getPlaceDetails(placeId);
-      if (!details) {
-        console.warn(`  ⚠ Could not get details for: ${branchName}`);
-        continue;
-      }
-
-      const id = toId(branchName);
-      const override = overrides[id] ?? {};
-
-      results.push({
-        id,
-        name: details.name ?? branchName,
-        address: details.address ?? "",
-        lat: details.lat ?? 0,
-        lng: details.lng ?? 0,
-        phone: details.phone ?? "",
-        website: details.website ?? "",
-        googlePlaceId: details.googlePlaceId ?? placeId,
-        googleRating: details.googleRating ?? 0,
-        googleReviewCount: details.googleReviewCount ?? 0,
-        sqft: override.sqft ?? null,
-        photos: details.photos ?? [],
-        hours: details.hours ?? {},
-        // Note: Google Places API does not expose popularTimes in its response.
-        // Populate via manual-overrides.json if desired.
-        popularTimes: override.popularTimes ?? {},
-        wheelchairAccessible: details.wheelchairAccessible ?? false,
-        lastUpdated: today,
-        ...override,
-      });
-
-      console.log(`  ✓ ${details.name} (${details.googleRating}★, ${details.googleReviewCount} reviews)`);
-
-      // Rate limit: 100ms between requests
-      await new Promise((r) => setTimeout(r, 100));
-    } catch (err) {
-      console.error(`  ✗ Error fetching ${branchName}:`, err);
     }
   }
 

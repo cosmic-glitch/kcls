@@ -1,6 +1,7 @@
 "use client";
 
-import type { Filters } from "@/lib/types";
+import type { Filters, LibrarySystem } from "@/lib/types";
+import { SYSTEM_DISPLAY_NAMES } from "@/lib/types";
 
 interface FilterBarProps {
   filters: Filters;
@@ -94,6 +95,31 @@ export function FilterBar({
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
+        </select>
+      </div>
+
+      {/* System filter */}
+      <div className="flex items-center gap-1.5">
+        <span className="text-xs font-semibold uppercase tracking-wide text-gray-400">
+          System
+        </span>
+        <select
+          value={filters.system ?? ""}
+          onChange={(e) =>
+            update({
+              system: (e.target.value || null) as Filters["system"],
+            })
+          }
+          className="bg-gray-50 border border-gray-200 text-gray-700 px-3 py-1.5 rounded-lg text-sm cursor-pointer hover:border-indigo-400 hover:bg-indigo-50 transition-colors"
+        >
+          <option value="">All</option>
+          {(Object.entries(SYSTEM_DISPLAY_NAMES) as [LibrarySystem, string][]).map(
+            ([key, name]) => (
+              <option key={key} value={key}>
+                {name}
+              </option>
+            )
+          )}
         </select>
       </div>
 

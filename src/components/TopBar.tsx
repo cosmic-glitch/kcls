@@ -17,7 +17,7 @@ export function TopBar({ location, locationLoading, locationError, todayHours }:
           📚
         </div>
         <span className="text-xl font-bold text-gray-900 tracking-tight">
-          KCLS <span className="text-indigo-600">Finder</span>
+          Library <span className="text-indigo-600">Finder</span>
         </span>
       </div>
 

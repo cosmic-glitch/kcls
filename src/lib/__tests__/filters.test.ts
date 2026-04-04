@@ -3,6 +3,7 @@ import type { Library, Filters, SortConfig, DriveTimeResult } from "../types";
 
 const makeLibrary = (overrides: Partial<Library>): Library => ({
   id: "test",
+  system: "kcls",
   name: "Test Library",
   address: "123 Test St",
   lat: 47.6,
@@ -54,6 +55,7 @@ describe("filterLibraries", () => {
     minRating: null,
     sizeCategory: null,
     openNow: false,
+    system: null,
   };
 
   it("returns all libraries with no filters", () => {

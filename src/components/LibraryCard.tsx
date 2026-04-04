@@ -1,8 +1,27 @@
 "use client";
 
-import type { Library, DriveTimeResult } from "@/lib/types";
+import type { Library, LibrarySystem, DriveTimeResult } from "@/lib/types";
+import { SYSTEM_DISPLAY_NAMES } from "@/lib/types";
 import { isOpenNow, getTodayHours } from "@/lib/time";
 import { getSizeCategory } from "@/lib/filters";
+
+const SYSTEM_BADGE_STYLES: Record<LibrarySystem, string> = {
+  kcls: "bg-indigo-100 text-indigo-700",
+  spl: "bg-emerald-100 text-emerald-700",
+  "sno-isle": "bg-sky-100 text-sky-700",
+  everett: "bg-amber-100 text-amber-700",
+  "pierce-county": "bg-rose-100 text-rose-700",
+  tacoma: "bg-violet-100 text-violet-700",
+};
+
+const SYSTEM_PIN_BG: Record<LibrarySystem, string> = {
+  kcls: "bg-indigo-600",
+  spl: "bg-emerald-600",
+  "sno-isle": "bg-sky-600",
+  everett: "bg-amber-600",
+  "pierce-county": "bg-rose-600",
+  tacoma: "bg-violet-600",
+};
 
 interface LibraryCardProps {
   library: Library;
@@ -11,6 +30,7 @@ interface LibraryCardProps {
   onClick: () => void;
   now: Date;
   majorityHours: string | null;
+  pinLabel?: string;
 }
 
 const SIZE_BADGE_STYLES = {
@@ -41,6 +61,7 @@ export function LibraryCard({
   onClick,
   now,
   majorityHours,
+  pinLabel,
 }: LibraryCardProps) {
   const open = isOpenNow(library.hours, now);
   const todayHours = getTodayHours(library.hours, now);
@@ -56,10 +77,22 @@ export function LibraryCard({
           : "hover:bg-indigo-50/30 border-l-[3px] border-l-transparent hover:border-l-indigo-400"
       }`}
     >
+      {/* Pin label */}
+      {pinLabel && (
+        <div className={`w-6 h-6 rounded-full ${SYSTEM_PIN_BG[library.system]} text-white text-[10px] font-bold flex items-center justify-center shrink-0 mr-2.5`}>
+          {pinLabel}
+        </div>
+      )}
+
       {/* Library info */}
       <div className="flex-[2.2] min-w-0">
-        <div className="font-semibold text-sm text-gray-900 truncate">
+        <div className="font-semibold text-sm text-gray-900 truncate flex items-center gap-1.5">
           {library.name}
+          <span
+            className={`inline-block text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded shrink-0 ${SYSTEM_BADGE_STYLES[library.system]}`}
+          >
+            {SYSTEM_DISPLAY_NAMES[library.system]}
+          </span>
         </div>
         <div className="text-xs text-gray-400 mt-0.5 truncate">
           {library.address}

@@ -25,6 +25,10 @@ export function filterLibraries(
   );
 
   return libraries.filter((lib) => {
+    if (filters.system !== null && lib.system !== filters.system) {
+      return false;
+    }
+
     if (filters.minRating !== null && lib.googleRating < filters.minRating) {
       return false;
     }

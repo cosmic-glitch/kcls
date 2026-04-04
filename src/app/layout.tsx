@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KCLS Finder",
+  title: "Library Finder",
   description:
-    "Find the best King County Library System branch for you based on distance, rating, size, and more.",
+    "Find the best public library in the Puget Sound area based on distance, rating, size, and more.",
   icons: {
     apple: "/apple-touch-icon.png",
   },

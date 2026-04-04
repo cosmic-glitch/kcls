@@ -1,6 +1,7 @@
 [
   {
-    "id": "algona-pacific",
+    "id": "kcls-algona-pacific",
+    "system": "kcls",
     "name": "Algona-Pacific Library",
     "address": "255 Ellingson Rd, Pacific, WA 98047, USA",
     "lat": 47.2716819,
@@ -9,7 +10,7 @@
     "website": "https://kcls.org/locations/Algona-Pacific/",
     "googlePlaceId": "ChIJAwpw5Yr3kFQRXTkK-34iAfM",
     "googleRating": 4.7,
-    "googleReviewCount": 75,
+    "googleReviewCount": 76,
     "sqft": null,
     "photos": [
       "/photos/ChIJAwpw5Yr3kFQRXTkK-34iAfM-0.jpg",
@@ -28,10 +29,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "auburn",
+    "id": "kcls-auburn",
+    "system": "kcls",
     "name": "Auburn Library",
     "address": "1102 Auburn Way S, Auburn, WA 98002, USA",
     "lat": 47.298683,
@@ -40,7 +42,7 @@
     "website": "https://kcls.org/locations/auburn/",
     "googlePlaceId": "ChIJJwDPWdj3kFQRDGHV_SBTpRY",
     "googleRating": 4.5,
-    "googleReviewCount": 186,
+    "googleReviewCount": 191,
     "sqft": 20000,
     "photos": [
       "/photos/ChIJJwDPWdj3kFQRDGHV_SBTpRY-0.jpg",
@@ -60,10 +62,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "bellevue",
+    "id": "kcls-bellevue",
+    "system": "kcls",
     "name": "Bellevue Library",
     "address": "1111 110th Ave NE, Bellevue, WA 98004, USA",
     "lat": 47.6200443,
@@ -72,7 +75,7 @@
     "website": "https://kcls.org/locations/bellevue/",
     "googlePlaceId": "ChIJAf2ta4xskFQRMkLmAk-vP7o",
     "googleRating": 4.6,
-    "googleReviewCount": 565,
+    "googleReviewCount": 569,
     "sqft": 80000,
     "photos": [
       "/photos/ChIJAf2ta4xskFQRMkLmAk-vP7o-0.jpg",
@@ -92,10 +95,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "black-diamond",
+    "id": "kcls-black-diamond",
+    "system": "kcls",
     "name": "Black Diamond Library",
     "address": "24707 Roberts Dr, Black Diamond, WA 98010, USA",
     "lat": 47.3119306,
@@ -123,10 +127,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "bothell",
+    "id": "kcls-bothell",
+    "system": "kcls",
     "name": "Bothell Library",
     "address": "18215 98th Ave NE, Bothell, WA 98011, USA",
     "lat": 47.7602509,
@@ -135,7 +140,7 @@
     "website": "https://kcls.org/locations/bothell/",
     "googlePlaceId": "ChIJUd-Y7GoOkFQR1QHRSiWPGqw",
     "googleRating": 4.7,
-    "googleReviewCount": 251,
+    "googleReviewCount": 255,
     "sqft": 22500,
     "photos": [
       "/photos/ChIJUd-Y7GoOkFQR1QHRSiWPGqw-0.jpg",
@@ -155,10 +160,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "boulevard-park",
+    "id": "kcls-boulevard-park",
+    "system": "kcls",
     "name": "Boulevard Park Library",
     "address": "12015 Roseberg Ave S, Burien, WA 98168, USA",
     "lat": 47.4953528,
@@ -167,7 +173,7 @@
     "website": "https://kcls.org/locations/boulevard-park/",
     "googlePlaceId": "ChIJMWnYLalDkFQR1H-9De_jG2E",
     "googleRating": 4.5,
-    "googleReviewCount": 50,
+    "googleReviewCount": 52,
     "sqft": 6536,
     "photos": [
       "/photos/ChIJMWnYLalDkFQR1H-9De_jG2E-0.jpg",
@@ -186,10 +192,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "burien",
+    "id": "kcls-burien",
+    "system": "kcls",
     "name": "Burien Library",
     "address": "400 SW 152nd St STE 100, Burien, WA 98166, USA",
     "lat": 47.4670576,
@@ -218,10 +225,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "carnation",
+    "id": "kcls-carnation",
+    "system": "kcls",
     "name": "Carnation Library",
     "address": "4804 Tolt Ave, Carnation, WA 98014, USA",
     "lat": 47.65042469999999,
@@ -249,10 +257,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "covington",
+    "id": "kcls-covington",
+    "system": "kcls",
     "name": "Covington Library",
     "address": "27100 164th Ave SE, Covington, WA 98042, USA",
     "lat": 47.3589218,
@@ -261,7 +270,7 @@
     "website": "https://kcls.org/locations/covington",
     "googlePlaceId": "ChIJeWV25wlfkFQRW4tBJpDs2oM",
     "googleRating": 4.7,
-    "googleReviewCount": 176,
+    "googleReviewCount": 181,
     "sqft": 23000,
     "photos": [
       "/photos/ChIJeWV25wlfkFQRW4tBJpDs2oM-0.jpg",
@@ -280,10 +289,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "des-moines",
+    "id": "kcls-des-moines",
+    "system": "kcls",
     "name": "Des Moines Library",
     "address": "21620 11th Ave S, Des Moines, WA 98198, USA",
     "lat": 47.4081556,
@@ -311,10 +321,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "duvall",
+    "id": "kcls-duvall",
+    "system": "kcls",
     "name": "Duvall Library",
     "address": "15508 Main St NE, Duvall, WA 98019, USA",
     "lat": 47.740328,
@@ -323,7 +334,7 @@
     "website": "https://kcls.org/locations/duvall/",
     "googlePlaceId": "ChIJoegMU9wKkFQRvDYpCZfU7mw",
     "googleRating": 4.6,
-    "googleReviewCount": 69,
+    "googleReviewCount": 68,
     "sqft": 8000,
     "photos": [
       "/photos/ChIJoegMU9wKkFQRvDYpCZfU7mw-0.jpg",
@@ -343,10 +354,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "enumclaw",
+    "id": "kcls-enumclaw",
+    "system": "kcls",
     "name": "Enumclaw Library",
     "address": "1700 1st St, Enumclaw, WA 98022, USA",
     "lat": 47.20348,
@@ -355,7 +367,7 @@
     "website": "https://kcls.org/locations/enumclaw/",
     "googlePlaceId": "ChIJDXhR7QbykFQRKGUoscZ9qYw",
     "googleRating": 4.7,
-    "googleReviewCount": 54,
+    "googleReviewCount": 55,
     "sqft": 10541,
     "photos": [
       "/photos/ChIJDXhR7QbykFQRKGUoscZ9qYw-0.jpg",
@@ -375,10 +387,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "fairwood",
+    "id": "kcls-fairwood",
+    "system": "kcls",
     "name": "Fairwood Library",
     "address": "17009 140th Ave SE, Renton, WA 98058, USA",
     "lat": 47.450769,
@@ -387,7 +400,7 @@
     "website": "https://kcls.org/locations/fairwood/",
     "googlePlaceId": "ChIJA8EXXH9nkFQRBkCNhakJfJ4",
     "googleRating": 4.8,
-    "googleReviewCount": 172,
+    "googleReviewCount": 174,
     "sqft": 20000,
     "photos": [
       "/photos/ChIJA8EXXH9nkFQRBkCNhakJfJ4-0.jpg",
@@ -407,10 +420,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "fall-city",
+    "id": "kcls-fall-city",
+    "system": "kcls",
     "name": "Fall City Library",
     "address": "33415 SE 42nd Pl, Fall City, WA 98024, USA",
     "lat": 47.5687401,
@@ -438,10 +452,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "federal-way-320th",
+    "id": "kcls-federal-way-320th",
+    "system": "kcls",
     "name": "Federal Way 320th Library",
     "address": "848 S 320th St, Federal Way, WA 98003, USA",
     "lat": 47.3155031,
@@ -449,8 +464,8 @@
     "phone": "(253) 839-0257",
     "website": "https://kcls.org/locations/federal-way-320th/",
     "googlePlaceId": "ChIJAYwtInRXkFQRggAVKF0Kpko",
-    "googleRating": 4.5,
-    "googleReviewCount": 130,
+    "googleRating": 4.6,
+    "googleReviewCount": 134,
     "sqft": null,
     "photos": [
       "/photos/ChIJAYwtInRXkFQRggAVKF0Kpko-0.jpg",
@@ -469,10 +484,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "federal-way",
+    "id": "kcls-federal-way",
+    "system": "kcls",
     "name": "Federal Way Library",
     "address": "34200 1st Way S, Federal Way, WA 98003, USA",
     "lat": 47.2946347,
@@ -481,7 +497,7 @@
     "website": "https://kcls.org/locations/federal-way/",
     "googlePlaceId": "ChIJxUUM1bNXkFQRX7S_Vp3VsuU",
     "googleRating": 4.7,
-    "googleReviewCount": 237,
+    "googleReviewCount": 239,
     "sqft": 34500,
     "photos": [
       "/photos/ChIJxUUM1bNXkFQRX7S_Vp3VsuU-0.jpg",
@@ -501,10 +517,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "greenbridge",
+    "id": "kcls-greenbridge",
+    "system": "kcls",
     "name": "Greenbridge Library",
     "address": "9720 8th Ave SW, Seattle, WA 98106, USA",
     "lat": 47.5161206,
@@ -531,10 +548,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "issaquah",
+    "id": "kcls-issaquah",
+    "system": "kcls",
     "name": "Issaquah Library",
     "address": "10 W Sunset Way, Issaquah, WA 98027, USA",
     "lat": 47.5304395,
@@ -543,7 +561,7 @@
     "website": "https://kcls.org/locations/issaquah/",
     "googlePlaceId": "ChIJ00HiHYBlkFQRw_6qxzwQoWs",
     "googleRating": 4.6,
-    "googleReviewCount": 149,
+    "googleReviewCount": 151,
     "sqft": 15000,
     "photos": [
       "/photos/ChIJ00HiHYBlkFQRw_6qxzwQoWs-0.jpg",
@@ -563,10 +581,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "kenmore",
+    "id": "kcls-kenmore",
+    "system": "kcls",
     "name": "Kenmore Library",
     "address": "6531 NE 181st St, Kenmore, WA 98028, USA",
     "lat": 47.7593974,
@@ -575,7 +594,7 @@
     "website": "https://kcls.org/locations/kenmore/",
     "googlePlaceId": "ChIJBUoPYyYOkFQRj0XiIVZl2lA",
     "googleRating": 4.7,
-    "googleReviewCount": 81,
+    "googleReviewCount": 82,
     "sqft": 10000,
     "photos": [
       "/photos/ChIJBUoPYyYOkFQRj0XiIVZl2lA-0.jpg",
@@ -594,10 +613,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "kent",
+    "id": "kcls-kent",
+    "system": "kcls",
     "name": "Kent Library",
     "address": "212 2nd Ave N, Kent, WA 98032, USA",
     "lat": 47.3826063,
@@ -606,7 +626,7 @@
     "website": "http://kcls.org/locations/1520/",
     "googlePlaceId": "ChIJi69Y9VVZkFQRT1Wr9tTDRBs",
     "googleRating": 4.1,
-    "googleReviewCount": 226,
+    "googleReviewCount": 228,
     "sqft": 22600,
     "photos": [
       "/photos/ChIJi69Y9VVZkFQRT1Wr9tTDRBs-0.jpg",
@@ -626,10 +646,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "kent-panther-lake",
+    "id": "kcls-kent-panther-lake",
+    "system": "kcls",
     "name": "Kent Panther Lake Library",
     "address": "20500 108th Ave SE, Kent, WA 98031, USA",
     "lat": 47.4184091,
@@ -657,10 +678,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "kingsgate",
+    "id": "kcls-kingsgate",
+    "system": "kcls",
     "name": "Kingsgate Library",
     "address": "12315 NE 143rd St, Kirkland, WA 98034, USA",
     "lat": 47.7296886,
@@ -669,7 +691,7 @@
     "website": "https://kcls.org/locations/kingsgate/",
     "googlePlaceId": "ChIJ6-awvuoNkFQRdPpE_12ZyfA",
     "googleRating": 4.5,
-    "googleReviewCount": 117,
+    "googleReviewCount": 121,
     "sqft": 10235,
     "photos": [
       "/photos/ChIJ6-awvuoNkFQRdPpE_12ZyfA-0.jpg",
@@ -689,10 +711,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "kirkland",
+    "id": "kcls-kirkland",
+    "system": "kcls",
     "name": "Kirkland Library",
     "address": "308 Kirkland Ave, Kirkland, WA 98033, USA",
     "lat": 47.6760175,
@@ -701,7 +724,7 @@
     "website": "https://kcls.org/locations/kirkland/",
     "googlePlaceId": "ChIJ2V7abt0SkFQRGgKXhAeOyLc",
     "googleRating": 4.6,
-    "googleReviewCount": 282,
+    "googleReviewCount": 285,
     "sqft": 19500,
     "photos": [
       "/photos/ChIJ2V7abt0SkFQRGgKXhAeOyLc-0.jpg",
@@ -720,10 +743,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "lake-forest-park",
+    "id": "kcls-lake-forest-park",
+    "system": "kcls",
     "name": "Lake Forest Park Library",
     "address": "17171 Bothell Way NE, Lake Forest Park, WA 98155, USA",
     "lat": 47.7543093,
@@ -751,10 +775,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "lake-hills",
+    "id": "kcls-lake-hills",
+    "system": "kcls",
     "name": "Lake Hills Library",
     "address": "15590 Lake Hills Blvd, Bellevue, WA 98007, USA",
     "lat": 47.603525,
@@ -782,10 +807,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "crossroads",
+    "id": "kcls-crossroads",
+    "system": "kcls",
     "name": "Crossroads Library Connection",
     "address": "15600 NE 8th St Suite K-11, Bellevue, WA 98008, USA",
     "lat": 47.6196683,
@@ -814,10 +840,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "maple-valley",
+    "id": "kcls-maple-valley",
+    "system": "kcls",
     "name": "Maple Valley Library",
     "address": "21844 SE 248th St, Maple Valley, WA 98038, USA",
     "lat": 47.3801728,
@@ -826,7 +853,7 @@
     "website": "https://kcls.org/locations/maple-valley/",
     "googlePlaceId": "ChIJ3VbiJWxgkFQRVBcVFBaW7M4",
     "googleRating": 4.5,
-    "googleReviewCount": 100,
+    "googleReviewCount": 102,
     "sqft": 10000,
     "photos": [
       "/photos/ChIJ3VbiJWxgkFQRVBcVFBaW7M4-0.jpg",
@@ -845,10 +872,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "mercer-island",
+    "id": "kcls-mercer-island",
+    "system": "kcls",
     "name": "Mercer Island Library",
     "address": "4400 88th Ave SE, Mercer Island, WA 98040, USA",
     "lat": 47.56697,
@@ -877,10 +905,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "muckleshoot",
+    "id": "kcls-muckleshoot",
+    "system": "kcls",
     "name": "Muckleshoot Library",
     "address": "39917 Auburn Enumclaw Rd SE, Auburn, WA 98092, USA",
     "lat": 47.243277,
@@ -908,10 +937,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "newcastle",
+    "id": "kcls-newcastle",
+    "system": "kcls",
     "name": "Newcastle Library",
     "address": "12901 Newcastle Way, Newcastle, WA 98056, USA",
     "lat": 47.5377331,
@@ -920,7 +950,7 @@
     "website": "https://kcls.org/locations/newcastle/",
     "googlePlaceId": "ChIJdbRukB5pkFQR3hLJn_dalWI",
     "googleRating": 4.5,
-    "googleReviewCount": 118,
+    "googleReviewCount": 117,
     "sqft": 11000,
     "photos": [
       "/photos/ChIJdbRukB5pkFQR3hLJn_dalWI-0.jpg",
@@ -939,10 +969,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "newport-way",
+    "id": "kcls-newport-way",
+    "system": "kcls",
     "name": "Newport Way Library",
     "address": "14250 SE Newport Way, Bellevue, WA 98006, USA",
     "lat": 47.5705089,
@@ -951,7 +982,7 @@
     "website": "https://kcls.org/locations/newport-way/",
     "googlePlaceId": "ChIJ_YeWq7FukFQR1unxtr4_0xE",
     "googleRating": 4.4,
-    "googleReviewCount": 101,
+    "googleReviewCount": 102,
     "sqft": 8690,
     "photos": [
       "/photos/ChIJ_YeWq7FukFQR1unxtr4_0xE-0.jpg",
@@ -970,10 +1001,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "north-bend",
+    "id": "kcls-north-bend",
+    "system": "kcls",
     "name": "North Bend Library",
     "address": "115 E 4th St, North Bend, WA 98045, USA",
     "lat": 47.496734,
@@ -1001,10 +1033,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "redmond",
+    "id": "kcls-redmond",
+    "system": "kcls",
     "name": "Redmond Library",
     "address": "15990 NE 85th St, Redmond, WA 98052, USA",
     "lat": 47.6789086,
@@ -1013,7 +1046,7 @@
     "website": "https://kcls.org/locations/redmond/",
     "googlePlaceId": "ChIJR0c4XE0NkFQRxiiq5S8cB40",
     "googleRating": 4.6,
-    "googleReviewCount": 428,
+    "googleReviewCount": 432,
     "sqft": 30000,
     "photos": [
       "/photos/ChIJR0c4XE0NkFQRxiiq5S8cB40-0.jpg",
@@ -1033,10 +1066,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "renton",
+    "id": "kcls-renton",
+    "system": "kcls",
     "name": "Renton Library",
     "address": "100 Mill Ave S, Renton, WA 98057, USA",
     "lat": 47.4818586,
@@ -1045,7 +1079,7 @@
     "website": "https://kcls.org/locations/renton/",
     "googlePlaceId": "ChIJV7XPJK9CkFQRPsyBPvc0oPw",
     "googleRating": 4.2,
-    "googleReviewCount": 210,
+    "googleReviewCount": 212,
     "sqft": 19500,
     "photos": [
       "/photos/ChIJV7XPJK9CkFQRPsyBPvc0oPw-0.jpg",
@@ -1065,10 +1099,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "renton-highlands",
+    "id": "kcls-renton-highlands",
+    "system": "kcls",
     "name": "Renton Highlands Library",
     "address": "2801 NE 10th St, Renton, WA 98056, USA",
     "lat": 47.49996429999999,
@@ -1077,7 +1112,7 @@
     "website": "https://kcls.org/locations/renton-highlands/",
     "googlePlaceId": "ChIJ_3YHDmlokFQRCO8QIBKxwXY",
     "googleRating": 4.5,
-    "googleReviewCount": 110,
+    "googleReviewCount": 112,
     "sqft": null,
     "photos": [
       "/photos/ChIJ_3YHDmlokFQRCO8QIBKxwXY-0.jpg",
@@ -1096,10 +1131,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "richmond-beach",
+    "id": "kcls-richmond-beach",
+    "system": "kcls",
     "name": "Richmond Beach Library",
     "address": "19601 21st Ave NW, Shoreline, WA 98177, USA",
     "lat": 47.7717976,
@@ -1127,10 +1163,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "sammamish",
+    "id": "kcls-sammamish",
+    "system": "kcls",
     "name": "Sammamish Library",
     "address": "825 228th Ave SE, Sammamish, WA 98075, USA",
     "lat": 47.6005902,
@@ -1139,7 +1176,7 @@
     "website": "https://kcls.org/locations/sammamish/",
     "googlePlaceId": "ChIJ2cNIi-ZxkFQRVeXV7rc0jjs",
     "googleRating": 4.7,
-    "googleReviewCount": 194,
+    "googleReviewCount": 196,
     "sqft": 19500,
     "photos": [
       "/photos/ChIJ2cNIi-ZxkFQRVeXV7rc0jjs-0.jpg",
@@ -1159,10 +1196,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "shoreline",
+    "id": "kcls-shoreline",
+    "system": "kcls",
     "name": "Shoreline Library",
     "address": "345 NE 175th St, Shoreline, WA 98155, USA",
     "lat": 47.7555829,
@@ -1171,7 +1209,7 @@
     "website": "https://kcls.org/locations/shoreline/",
     "googlePlaceId": "ChIJP_JGjfgQkFQRRp9tQoLXAgA",
     "googleRating": 4.6,
-    "googleReviewCount": 196,
+    "googleReviewCount": 198,
     "sqft": 20954,
     "photos": [
       "/photos/ChIJP_JGjfgQkFQRRp9tQoLXAgA-0.jpg",
@@ -1191,10 +1229,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "skykomish",
+    "id": "kcls-skykomish",
+    "system": "kcls",
     "name": "Skykomish Library",
     "address": "100 5th St N, Skykomish, WA 98288, USA",
     "lat": 47.708482,
@@ -1219,10 +1258,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "skyway",
+    "id": "kcls-skyway",
+    "system": "kcls",
     "name": "Skyway Library",
     "address": "12601 76th Ave S, Seattle, WA 98178, USA",
     "lat": 47.4905055,
@@ -1250,10 +1290,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "snoqualmie",
+    "id": "kcls-snoqualmie",
+    "system": "kcls",
     "name": "Snoqualmie Library",
     "address": "7824 Center Blvd SE, Snoqualmie, WA 98065, USA",
     "lat": 47.5299095,
@@ -1262,7 +1303,7 @@
     "website": "https://kcls.org/locations/snoqualmie/",
     "googlePlaceId": "ChIJ6b6XDq97kFQR-VQ3yyPE-S8",
     "googleRating": 4.7,
-    "googleReviewCount": 32,
+    "googleReviewCount": 33,
     "sqft": 6000,
     "photos": [
       "/photos/ChIJ6b6XDq97kFQR-VQ3yyPE-S8-0.jpg",
@@ -1282,10 +1323,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "southcenter",
+    "id": "kcls-southcenter",
+    "system": "kcls",
     "name": "Southcenter Library Connection",
     "address": "1386 Southcenter Mall, Tukwila, WA 98188, USA",
     "lat": 47.4592191,
@@ -1313,10 +1355,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "tukwila",
+    "id": "kcls-tukwila",
+    "system": "kcls",
     "name": "Tukwila Library",
     "address": "14380 Tukwila International Blvd, Tukwila, WA 98168, USA",
     "lat": 47.4746227,
@@ -1325,7 +1368,7 @@
     "website": "https://kcls.org/locations/tukwila/",
     "googlePlaceId": "ChIJk6F6wSJDkFQR8jeQreL_0y0",
     "googleRating": 4.5,
-    "googleReviewCount": 119,
+    "googleReviewCount": 122,
     "sqft": 10000,
     "photos": [
       "/photos/ChIJk6F6wSJDkFQR8jeQreL_0y0-0.jpg",
@@ -1345,10 +1388,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "valley-view",
+    "id": "kcls-valley-view",
+    "system": "kcls",
     "name": "Valley View Library",
     "address": "17850 Military Rd S, SeaTac, WA 98188, USA",
     "lat": 47.443189,
@@ -1357,7 +1401,7 @@
     "website": "https://kcls.org/locations/valley-view/",
     "googlePlaceId": "ChIJc7r_crlckFQR09ovwXYqaU0",
     "googleRating": 4.6,
-    "googleReviewCount": 97,
+    "googleReviewCount": 98,
     "sqft": 6558,
     "photos": [
       "/photos/ChIJc7r_crlckFQR09ovwXYqaU0-0.jpg",
@@ -1376,10 +1420,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "vashon",
+    "id": "kcls-vashon",
+    "system": "kcls",
     "name": "Vashon Library",
     "address": "17210 Vashon Hwy SW, Vashon, WA 98070, USA",
     "lat": 47.4508516,
@@ -1408,10 +1453,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "white-center",
+    "id": "kcls-white-center",
+    "system": "kcls",
     "name": "White Center Library",
     "address": "1409 SW 107th St, Seattle, WA 98146, USA",
     "lat": 47.50694379999999,
@@ -1439,10 +1485,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "woodinville",
+    "id": "kcls-woodinville",
+    "system": "kcls",
     "name": "Woodinville Library",
     "address": "17105 Avondale Rd NE, Woodinville, WA 98072, USA",
     "lat": 47.7516539,
@@ -1470,10 +1517,11 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "id": "woodmont",
+    "id": "kcls-woodmont",
+    "system": "kcls",
     "name": "Woodmont Library",
     "address": "26809 Pacific Hwy S, Des Moines, WA 98198, USA",
     "lat": 47.3610528,
@@ -1482,7 +1530,7 @@
     "website": "https://kcls.org/locations/woodmont/",
     "googlePlaceId": "ChIJAdgmWCBakFQRJ9vZmJ5B1GQ",
     "googleRating": 4.5,
-    "googleReviewCount": 95,
+    "googleReviewCount": 97,
     "sqft": 9850,
     "photos": [
       "/photos/ChIJAdgmWCBakFQRJ9vZmJ5B1GQ-0.jpg",
@@ -1502,6 +1550,2411 @@
     },
     "popularTimes": {},
     "wheelchairAccessible": true,
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-central",
+    "system": "spl",
+    "name": "Seattle Public Library - Central Library",
+    "address": "1000 4th Ave, Seattle, WA 98104, USA",
+    "lat": 47.6066621,
+    "lng": -122.3321837,
+    "phone": "(206) 386-4636",
+    "website": "https://www.spl.org/hours-and-locations/central-library",
+    "googlePlaceId": "ChIJ55fLWVtBkFQR0v31eadEoLM",
+    "googleRating": 4.7,
+    "googleReviewCount": 1890,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ55fLWVtBkFQR0v31eadEoLM-0.jpg",
+      "/photos/ChIJ55fLWVtBkFQR0v31eadEoLM-1.jpg",
+      "/photos/ChIJ55fLWVtBkFQR0v31eadEoLM-2.jpg",
+      "/photos/ChIJ55fLWVtBkFQR0v31eadEoLM-3.jpg",
+      "/photos/ChIJ55fLWVtBkFQR0v31eadEoLM-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-ballard",
+    "system": "spl",
+    "name": "Ballard Branch - The Seattle Public Library",
+    "address": "5614 22nd Ave NW, Seattle, WA 98107, USA",
+    "lat": 47.6698096,
+    "lng": -122.3842709,
+    "phone": "(206) 684-4089",
+    "website": "https://www.spl.org/hours-and-locations/ballard-branch",
+    "googlePlaceId": "ChIJqci788UVkFQREdTIYKi-mYs",
+    "googleRating": 4.3,
+    "googleReviewCount": 168,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJqci788UVkFQREdTIYKi-mYs-0.jpg",
+      "/photos/ChIJqci788UVkFQREdTIYKi-mYs-1.jpg",
+      "/photos/ChIJqci788UVkFQREdTIYKi-mYs-2.jpg",
+      "/photos/ChIJqci788UVkFQREdTIYKi-mYs-3.jpg",
+      "/photos/ChIJqci788UVkFQREdTIYKi-mYs-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-beacon-hill",
+    "system": "spl",
+    "name": "Beacon Hill Branch - The Seattle Public Library",
+    "address": "2821 Beacon Ave S #5813, Seattle, WA 98144, USA",
+    "lat": 47.5780836,
+    "lng": -122.3114756,
+    "phone": "(206) 684-4711",
+    "website": "https://www.spl.org/hours-and-locations/beacon-hill-branch",
+    "googlePlaceId": "ChIJQ2xGQIdqkFQRDAwVMNgC7gI",
+    "googleRating": 4.7,
+    "googleReviewCount": 109,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJQ2xGQIdqkFQRDAwVMNgC7gI-0.jpg",
+      "/photos/ChIJQ2xGQIdqkFQRDAwVMNgC7gI-1.jpg",
+      "/photos/ChIJQ2xGQIdqkFQRDAwVMNgC7gI-2.jpg",
+      "/photos/ChIJQ2xGQIdqkFQRDAwVMNgC7gI-3.jpg",
+      "/photos/ChIJQ2xGQIdqkFQRDAwVMNgC7gI-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-broadview",
+    "system": "spl",
+    "name": "Broadview Branch - The Seattle Public Library",
+    "address": "12755 Greenwood Ave N, Seattle, WA 98133, USA",
+    "lat": 47.7230044,
+    "lng": -122.3562109,
+    "phone": "(206) 684-7519",
+    "website": "https://www.spl.org/hours-and-locations/broadview-branch",
+    "googlePlaceId": "ChIJX0u_yswWkFQRqO8xruCDflA",
+    "googleRating": 4.7,
+    "googleReviewCount": 107,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJX0u_yswWkFQRqO8xruCDflA-0.jpg",
+      "/photos/ChIJX0u_yswWkFQRqO8xruCDflA-1.jpg",
+      "/photos/ChIJX0u_yswWkFQRqO8xruCDflA-2.jpg",
+      "/photos/ChIJX0u_yswWkFQRqO8xruCDflA-3.jpg",
+      "/photos/ChIJX0u_yswWkFQRqO8xruCDflA-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-capitol-hill",
+    "system": "spl",
+    "name": "Capitol Hill Branch - The Seattle Public Library",
+    "address": "425 Harvard Ave E, Seattle, WA 98102, USA",
+    "lat": 47.6230001,
+    "lng": -122.3223973,
+    "phone": "(206) 684-4715",
+    "website": "https://www.spl.org/hours-and-locations/capitol-hill-branch",
+    "googlePlaceId": "ChIJ1Y9IDC4VkFQRteLhIs-Bf4I",
+    "googleRating": 4.4,
+    "googleReviewCount": 155,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ1Y9IDC4VkFQRteLhIs-Bf4I-0.jpg",
+      "/photos/ChIJ1Y9IDC4VkFQRteLhIs-Bf4I-1.jpg",
+      "/photos/ChIJ1Y9IDC4VkFQRteLhIs-Bf4I-2.jpg",
+      "/photos/ChIJ1Y9IDC4VkFQRteLhIs-Bf4I-3.jpg",
+      "/photos/ChIJ1Y9IDC4VkFQRteLhIs-Bf4I-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-columbia",
+    "system": "spl",
+    "name": "Columbia Branch - The Seattle Public Library",
+    "address": "4721 Rainier Ave S, Seattle, WA 98118, USA",
+    "lat": 47.5599006,
+    "lng": -122.2869591,
+    "phone": "(206) 386-1908",
+    "website": "https://www.spl.org/hours-and-locations/columbia-branch",
+    "googlePlaceId": "ChIJv5x3_wxqkFQRs76P7-fM9GE",
+    "googleRating": 4.7,
+    "googleReviewCount": 68,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJv5x3_wxqkFQRs76P7-fM9GE-0.jpg",
+      "/photos/ChIJv5x3_wxqkFQRs76P7-fM9GE-1.jpg",
+      "/photos/ChIJv5x3_wxqkFQRs76P7-fM9GE-2.jpg",
+      "/photos/ChIJv5x3_wxqkFQRs76P7-fM9GE-3.jpg",
+      "/photos/ChIJv5x3_wxqkFQRs76P7-fM9GE-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-delridge",
+    "system": "spl",
+    "name": "Delridge Branch - The Seattle Public Library",
+    "address": "5423 Delridge Wy SW, Seattle, WA 98106, USA",
+    "lat": 47.5531917,
+    "lng": -122.3633429,
+    "phone": "(206) 733-9125",
+    "website": "https://www.spl.org/hours-and-locations/delridge-branch",
+    "googlePlaceId": "ChIJ3aIMp6lBkFQRoIT0hrJlwwk",
+    "googleRating": 4.4,
+    "googleReviewCount": 43,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ3aIMp6lBkFQRoIT0hrJlwwk-0.jpg",
+      "/photos/ChIJ3aIMp6lBkFQRoIT0hrJlwwk-1.jpg",
+      "/photos/ChIJ3aIMp6lBkFQRoIT0hrJlwwk-2.jpg",
+      "/photos/ChIJ3aIMp6lBkFQRoIT0hrJlwwk-3.jpg",
+      "/photos/ChIJ3aIMp6lBkFQRoIT0hrJlwwk-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-douglass-truth",
+    "system": "spl",
+    "name": "Douglass-Truth Branch - The Seattle Public Library",
+    "address": "2300 E Yesler Wy, Seattle, WA 98122, USA",
+    "lat": 47.6019184,
+    "lng": -122.3016502,
+    "phone": "(206) 684-4704",
+    "website": "https://www.spl.org/hours-and-locations/douglass-truth-branch",
+    "googlePlaceId": "ChIJz7j3fcJqkFQR4IjrnHLzv74",
+    "googleRating": 4.5,
+    "googleReviewCount": 110,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJz7j3fcJqkFQR4IjrnHLzv74-0.jpg",
+      "/photos/ChIJz7j3fcJqkFQR4IjrnHLzv74-1.jpg",
+      "/photos/ChIJz7j3fcJqkFQR4IjrnHLzv74-2.jpg",
+      "/photos/ChIJz7j3fcJqkFQR4IjrnHLzv74-3.jpg",
+      "/photos/ChIJz7j3fcJqkFQR4IjrnHLzv74-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-fremont",
+    "system": "spl",
+    "name": "Fremont Branch - The Seattle Public Library",
+    "address": "731 N 35th St, Seattle, WA 98103, USA",
+    "lat": 47.6500583,
+    "lng": -122.3484854,
+    "phone": "(206) 684-4084",
+    "website": "https://www.spl.org/hours-and-locations/fremont-branch",
+    "googlePlaceId": "ChIJoz291gAVkFQR5-kw3WppwvU",
+    "googleRating": 4.6,
+    "googleReviewCount": 83,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJoz291gAVkFQR5-kw3WppwvU-0.jpg",
+      "/photos/ChIJoz291gAVkFQR5-kw3WppwvU-1.jpg",
+      "/photos/ChIJoz291gAVkFQR5-kw3WppwvU-2.jpg",
+      "/photos/ChIJoz291gAVkFQR5-kw3WppwvU-3.jpg",
+      "/photos/ChIJoz291gAVkFQR5-kw3WppwvU-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-green-lake",
+    "system": "spl",
+    "name": "Green Lake Branch - The Seattle Public Library",
+    "address": "7364 East Green Lake Dr N, Seattle, WA 98115, USA",
+    "lat": 47.6814942,
+    "lng": -122.3266587,
+    "phone": "(206) 684-7547",
+    "website": "https://www.spl.org/hours-and-locations/green-lake-branch",
+    "googlePlaceId": "ChIJW9bFKm0UkFQRjhwcbPmMTXQ",
+    "googleRating": 4.4,
+    "googleReviewCount": 74,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJW9bFKm0UkFQRjhwcbPmMTXQ-0.jpg",
+      "/photos/ChIJW9bFKm0UkFQRjhwcbPmMTXQ-1.jpg",
+      "/photos/ChIJW9bFKm0UkFQRjhwcbPmMTXQ-2.jpg",
+      "/photos/ChIJW9bFKm0UkFQRjhwcbPmMTXQ-3.jpg",
+      "/photos/ChIJW9bFKm0UkFQRjhwcbPmMTXQ-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-greenwood",
+    "system": "spl",
+    "name": "Greenwood Branch - The Seattle Public Library",
+    "address": "8016 Greenwood Ave N, Seattle, WA 98103, USA",
+    "lat": 47.6874519,
+    "lng": -122.3547574,
+    "phone": "(206) 684-4086",
+    "website": "https://www.spl.org/hours-and-locations/greenwood-branch",
+    "googlePlaceId": "ChIJ7eJjtyMUkFQRlrk_dVTDvxk",
+    "googleRating": 4.7,
+    "googleReviewCount": 132,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ7eJjtyMUkFQRlrk_dVTDvxk-0.jpg",
+      "/photos/ChIJ7eJjtyMUkFQRlrk_dVTDvxk-1.jpg",
+      "/photos/ChIJ7eJjtyMUkFQRlrk_dVTDvxk-2.jpg",
+      "/photos/ChIJ7eJjtyMUkFQRlrk_dVTDvxk-3.jpg",
+      "/photos/ChIJ7eJjtyMUkFQRlrk_dVTDvxk-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-high-point",
+    "system": "spl",
+    "name": "High Point Branch - The Seattle Public Library",
+    "address": "3411 SW Raymond St, Seattle, WA 98126, USA",
+    "lat": 47.5480682,
+    "lng": -122.3758825,
+    "phone": "(206) 684-7454",
+    "website": "https://www.spl.org/hours-and-locations/high-point-branch",
+    "googlePlaceId": "ChIJyyxAAAVBkFQRIwwgKaMThyA",
+    "googleRating": 4.4,
+    "googleReviewCount": 62,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJyyxAAAVBkFQRIwwgKaMThyA-0.jpg",
+      "/photos/ChIJyyxAAAVBkFQRIwwgKaMThyA-1.jpg",
+      "/photos/ChIJyyxAAAVBkFQRIwwgKaMThyA-2.jpg",
+      "/photos/ChIJyyxAAAVBkFQRIwwgKaMThyA-3.jpg",
+      "/photos/ChIJyyxAAAVBkFQRIwwgKaMThyA-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-international-district-chinatown",
+    "system": "spl",
+    "name": "International District/Chinatown Branch - The Seattle Public Library",
+    "address": "713 8th Ave S, Seattle, WA 98104, USA",
+    "lat": 47.59623269999999,
+    "lng": -122.3227843,
+    "phone": "(206) 386-1300",
+    "website": "https://www.spl.org/hours-and-locations/international-district-chinatown-branch",
+    "googlePlaceId": "ChIJn-krn71qkFQR54uojagWKD8",
+    "googleRating": 4.4,
+    "googleReviewCount": 45,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJn-krn71qkFQR54uojagWKD8-0.jpg",
+      "/photos/ChIJn-krn71qkFQR54uojagWKD8-1.jpg",
+      "/photos/ChIJn-krn71qkFQR54uojagWKD8-2.jpg",
+      "/photos/ChIJn-krn71qkFQR54uojagWKD8-3.jpg",
+      "/photos/ChIJn-krn71qkFQR54uojagWKD8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-lake-city",
+    "system": "spl",
+    "name": "Lake City Branch - The Seattle Public Library",
+    "address": "12501 28th Ave NE, Seattle, WA 98125, USA",
+    "lat": 47.719716,
+    "lng": -122.298113,
+    "phone": "(206) 684-7518",
+    "website": "https://www.spl.org/hours-and-locations/lake-city-branch",
+    "googlePlaceId": "ChIJhWb17mQRkFQRNqp3mBpKXrQ",
+    "googleRating": 4.4,
+    "googleReviewCount": 144,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJhWb17mQRkFQRNqp3mBpKXrQ-0.jpg",
+      "/photos/ChIJhWb17mQRkFQRNqp3mBpKXrQ-1.jpg",
+      "/photos/ChIJhWb17mQRkFQRNqp3mBpKXrQ-2.jpg",
+      "/photos/ChIJhWb17mQRkFQRNqp3mBpKXrQ-3.jpg",
+      "/photos/ChIJhWb17mQRkFQRNqp3mBpKXrQ-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-madrona-sally-goldmark",
+    "system": "spl",
+    "name": "Madrona-Sally Goldmark Branch - The Seattle Public Library",
+    "address": "1134 33rd Ave, Seattle, WA 98122, USA",
+    "lat": 47.6126792,
+    "lng": -122.2900362,
+    "phone": "(206) 684-4705",
+    "website": "https://www.spl.org/hours-and-locations/madrona-sally-goldmark-branch",
+    "googlePlaceId": "ChIJ3XHObSdrkFQR1ZG6wstVcZ8",
+    "googleRating": 4.6,
+    "googleReviewCount": 32,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ3XHObSdrkFQR1ZG6wstVcZ8-0.jpg",
+      "/photos/ChIJ3XHObSdrkFQR1ZG6wstVcZ8-1.jpg",
+      "/photos/ChIJ3XHObSdrkFQR1ZG6wstVcZ8-2.jpg",
+      "/photos/ChIJ3XHObSdrkFQR1ZG6wstVcZ8-3.jpg",
+      "/photos/ChIJ3XHObSdrkFQR1ZG6wstVcZ8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-magnolia",
+    "system": "spl",
+    "name": "Magnolia Branch - The Seattle Public Library",
+    "address": "2801 34th Ave W, Seattle, WA 98199, USA",
+    "lat": 47.64532630000001,
+    "lng": -122.4013851,
+    "phone": "(206) 386-4225",
+    "website": "https://www.spl.org/hours-and-locations/magnolia-branch",
+    "googlePlaceId": "ChIJVwuub4YVkFQRgmCNdfT17B4",
+    "googleRating": 4.8,
+    "googleReviewCount": 68,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJVwuub4YVkFQRgmCNdfT17B4-0.jpg",
+      "/photos/ChIJVwuub4YVkFQRgmCNdfT17B4-1.jpg",
+      "/photos/ChIJVwuub4YVkFQRgmCNdfT17B4-2.jpg",
+      "/photos/ChIJVwuub4YVkFQRgmCNdfT17B4-3.jpg",
+      "/photos/ChIJVwuub4YVkFQRgmCNdfT17B4-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-montlake",
+    "system": "spl",
+    "name": "Montlake Branch - The Seattle Public Library",
+    "address": "2401 24th Ave E, Seattle, WA 98112, USA",
+    "lat": 47.6404159,
+    "lng": -122.302498,
+    "phone": "(206) 684-4720",
+    "website": "https://www.spl.org/hours-and-locations/montlake-branch",
+    "googlePlaceId": "ChIJU2vyhcMUkFQRG9TOL-sJups",
+    "googleRating": 4.5,
+    "googleReviewCount": 48,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJU2vyhcMUkFQRG9TOL-sJups-0.jpg",
+      "/photos/ChIJU2vyhcMUkFQRG9TOL-sJups-1.jpg",
+      "/photos/ChIJU2vyhcMUkFQRG9TOL-sJups-2.jpg",
+      "/photos/ChIJU2vyhcMUkFQRG9TOL-sJups-3.jpg",
+      "/photos/ChIJU2vyhcMUkFQRG9TOL-sJups-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-newholly",
+    "system": "spl",
+    "name": "NewHolly Branch - The Seattle Public Library",
+    "address": "7058 32nd Ave S #104, Seattle, WA 98118, USA",
+    "lat": 47.53903529999999,
+    "lng": -122.2909168,
+    "phone": "(206) 386-1905",
+    "website": "https://www.spl.org/hours-and-locations/newholly-branch",
+    "googlePlaceId": "ChIJS9l2dvhBkFQRu9lbP9NcYDo",
+    "googleRating": 4.1,
+    "googleReviewCount": 33,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJS9l2dvhBkFQRu9lbP9NcYDo-0.jpg",
+      "/photos/ChIJS9l2dvhBkFQRu9lbP9NcYDo-1.jpg",
+      "/photos/ChIJS9l2dvhBkFQRu9lbP9NcYDo-2.jpg",
+      "/photos/ChIJS9l2dvhBkFQRu9lbP9NcYDo-3.jpg",
+      "/photos/ChIJS9l2dvhBkFQRu9lbP9NcYDo-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-northeast",
+    "system": "spl",
+    "name": "Northeast Branch - The Seattle Public Library",
+    "address": "6801 35th Ave NE, Seattle, WA 98115, USA",
+    "lat": 47.6778874,
+    "lng": -122.2907311,
+    "phone": "(206) 684-7539",
+    "website": "https://www.spl.org/hours-and-locations/northeast-branch",
+    "googlePlaceId": "ChIJK8hUloYTkFQRyiMM-7TC7Ho",
+    "googleRating": 4.6,
+    "googleReviewCount": 106,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJK8hUloYTkFQRyiMM-7TC7Ho-0.jpg",
+      "/photos/ChIJK8hUloYTkFQRyiMM-7TC7Ho-1.jpg",
+      "/photos/ChIJK8hUloYTkFQRyiMM-7TC7Ho-2.jpg",
+      "/photos/ChIJK8hUloYTkFQRyiMM-7TC7Ho-3.jpg",
+      "/photos/ChIJK8hUloYTkFQRyiMM-7TC7Ho-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-northgate",
+    "system": "spl",
+    "name": "Northgate Branch - The Seattle Public Library",
+    "address": "10548 5th Ave NE, Seattle, WA 98125, USA",
+    "lat": 47.7059519,
+    "lng": -122.3230064,
+    "phone": "(206) 386-1980",
+    "website": "https://www.spl.org/hours-and-locations/northgate-branch",
+    "googlePlaceId": "ChIJdX-1BlYRkFQR1K4KC7eEyMs",
+    "googleRating": 4.3,
+    "googleReviewCount": 118,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJdX-1BlYRkFQR1K4KC7eEyMs-0.jpg",
+      "/photos/ChIJdX-1BlYRkFQR1K4KC7eEyMs-1.jpg",
+      "/photos/ChIJdX-1BlYRkFQR1K4KC7eEyMs-2.jpg",
+      "/photos/ChIJdX-1BlYRkFQR1K4KC7eEyMs-3.jpg",
+      "/photos/ChIJdX-1BlYRkFQR1K4KC7eEyMs-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-queen-anne",
+    "system": "spl",
+    "name": "Queen Anne Branch - The Seattle Public Library",
+    "address": "400 W Garfield St, Seattle, WA 98119, USA",
+    "lat": 47.6338132,
+    "lng": -122.362667,
+    "phone": "(206) 386-4227",
+    "website": "https://www.spl.org/hours-and-locations/queen-anne-branch",
+    "googlePlaceId": "ChIJEw6qRGwVkFQRNJYY6wj_LXY",
+    "googleRating": 4.7,
+    "googleReviewCount": 100,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJEw6qRGwVkFQRNJYY6wj_LXY-0.jpg",
+      "/photos/ChIJEw6qRGwVkFQRNJYY6wj_LXY-1.jpg",
+      "/photos/ChIJEw6qRGwVkFQRNJYY6wj_LXY-2.jpg",
+      "/photos/ChIJEw6qRGwVkFQRNJYY6wj_LXY-3.jpg",
+      "/photos/ChIJEw6qRGwVkFQRNJYY6wj_LXY-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-rainier-beach",
+    "system": "spl",
+    "name": "Rainier Beach Branch - The Seattle Public Library",
+    "address": "9125 Rainier Ave S, Seattle, WA 98118, USA",
+    "lat": 47.5213572,
+    "lng": -122.2705382,
+    "phone": "(206) 386-1906",
+    "website": "https://www.spl.org/hours-and-locations/rainier-beach-branch",
+    "googlePlaceId": "ChIJL_cygnJCkFQRzzZPdzm3qVg",
+    "googleRating": 4.4,
+    "googleReviewCount": 88,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJL_cygnJCkFQRzzZPdzm3qVg-0.jpg",
+      "/photos/ChIJL_cygnJCkFQRzzZPdzm3qVg-1.jpg",
+      "/photos/ChIJL_cygnJCkFQRzzZPdzm3qVg-2.jpg",
+      "/photos/ChIJL_cygnJCkFQRzzZPdzm3qVg-3.jpg",
+      "/photos/ChIJL_cygnJCkFQRzzZPdzm3qVg-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-south-park",
+    "system": "spl",
+    "name": "South Park Branch - The Seattle Public Library",
+    "address": "8604 8th Ave S, Seattle, WA 98108, USA",
+    "lat": 47.5262171,
+    "lng": -122.3226,
+    "phone": "(206) 615-1688",
+    "website": "https://www.spl.org/hours-and-locations/south-park-branch",
+    "googlePlaceId": "ChIJoU5EcSlCkFQR_TJ_DqrNmm8",
+    "googleRating": 4.5,
+    "googleReviewCount": 47,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJoU5EcSlCkFQR_TJ_DqrNmm8-0.jpg",
+      "/photos/ChIJoU5EcSlCkFQR_TJ_DqrNmm8-1.jpg",
+      "/photos/ChIJoU5EcSlCkFQR_TJ_DqrNmm8-2.jpg",
+      "/photos/ChIJoU5EcSlCkFQR_TJ_DqrNmm8-3.jpg",
+      "/photos/ChIJoU5EcSlCkFQR_TJ_DqrNmm8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-southwest",
+    "system": "spl",
+    "name": "Southwest Branch - The Seattle Public Library",
+    "address": "9010 35th Ave SW, Seattle, WA 98126, USA",
+    "lat": 47.5225355,
+    "lng": -122.3762932,
+    "phone": "(206) 684-7455",
+    "website": "https://www.spl.org/hours-and-locations/southwest-branch",
+    "googlePlaceId": "ChIJ55fLWVtBkFQRSHJ8COerwKA",
+    "googleRating": 4.6,
+    "googleReviewCount": 80,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ55fLWVtBkFQRSHJ8COerwKA-0.jpg",
+      "/photos/ChIJ55fLWVtBkFQRSHJ8COerwKA-1.jpg",
+      "/photos/ChIJ55fLWVtBkFQRSHJ8COerwKA-2.jpg",
+      "/photos/ChIJ55fLWVtBkFQRSHJ8COerwKA-3.jpg",
+      "/photos/ChIJ55fLWVtBkFQRSHJ8COerwKA-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-university",
+    "system": "spl",
+    "name": "University Branch - The Seattle Public Library",
+    "address": "5009 Roosevelt Way NE, Seattle, WA 98105, USA",
+    "lat": 47.6652454,
+    "lng": -122.3179233,
+    "phone": "(206) 684-4063",
+    "website": "https://www.spl.org/hours-and-locations/university-branch",
+    "googlePlaceId": "ChIJVZZq9mAUkFQRRAHfUiu_sc0",
+    "googleRating": 4.2,
+    "googleReviewCount": 74,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJVZZq9mAUkFQRRAHfUiu_sc0-0.jpg",
+      "/photos/ChIJVZZq9mAUkFQRRAHfUiu_sc0-1.jpg",
+      "/photos/ChIJVZZq9mAUkFQRRAHfUiu_sc0-2.jpg",
+      "/photos/ChIJVZZq9mAUkFQRRAHfUiu_sc0-3.jpg",
+      "/photos/ChIJVZZq9mAUkFQRRAHfUiu_sc0-4.jpg"
+    ],
+    "hours": {},
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-wallingford",
+    "system": "spl",
+    "name": "Wallingford Branch - The Seattle Public Library",
+    "address": "1501 N 45th St, Seattle, WA 98103, USA",
+    "lat": 47.6612832,
+    "lng": -122.3387458,
+    "phone": "(206) 684-4088",
+    "website": "https://www.spl.org/hours-and-locations/wallingford-branch",
+    "googlePlaceId": "ChIJxZL2KlcUkFQRvMj-zXRI3H0",
+    "googleRating": 4.3,
+    "googleReviewCount": 46,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJxZL2KlcUkFQRvMj-zXRI3H0-0.jpg",
+      "/photos/ChIJxZL2KlcUkFQRvMj-zXRI3H0-1.jpg",
+      "/photos/ChIJxZL2KlcUkFQRvMj-zXRI3H0-2.jpg",
+      "/photos/ChIJxZL2KlcUkFQRvMj-zXRI3H0-3.jpg",
+      "/photos/ChIJxZL2KlcUkFQRvMj-zXRI3H0-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "spl-west-seattle",
+    "system": "spl",
+    "name": "West Seattle Branch - The Seattle Public Library",
+    "address": "2306 42nd Ave SW, Seattle, WA 98116, USA",
+    "lat": 47.5826878,
+    "lng": -122.3847333,
+    "phone": "(206) 684-7444",
+    "website": "https://www.spl.org/hours-and-locations/west-seattle-branch",
+    "googlePlaceId": "ChIJ3VcWbG9AkFQR-NsDgadjWO4",
+    "googleRating": 4.7,
+    "googleReviewCount": 78,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ3VcWbG9AkFQR-NsDgadjWO4-0.jpg",
+      "/photos/ChIJ3VcWbG9AkFQR-NsDgadjWO4-1.jpg",
+      "/photos/ChIJ3VcWbG9AkFQR-NsDgadjWO4-2.jpg",
+      "/photos/ChIJ3VcWbG9AkFQR-NsDgadjWO4-3.jpg",
+      "/photos/ChIJ3VcWbG9AkFQR-NsDgadjWO4-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-arlington",
+    "system": "sno-isle",
+    "name": "Arlington Library - Sno-Isle Libraries",
+    "address": "135 N Washington Ave, Arlington, WA 98223, USA",
+    "lat": 48.1933248,
+    "lng": -122.1184432,
+    "phone": "(360) 435-3033",
+    "website": "http://www.sno-isle.org/locations/arlington/",
+    "googlePlaceId": "ChIJiW4aIZxPhVQRmWSPvbBw5Kw",
+    "googleRating": 4.4,
+    "googleReviewCount": 60,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJiW4aIZxPhVQRmWSPvbBw5Kw-0.jpg",
+      "/photos/ChIJiW4aIZxPhVQRmWSPvbBw5Kw-1.jpg",
+      "/photos/ChIJiW4aIZxPhVQRmWSPvbBw5Kw-2.jpg",
+      "/photos/ChIJiW4aIZxPhVQRmWSPvbBw5Kw-3.jpg",
+      "/photos/ChIJiW4aIZxPhVQRmWSPvbBw5Kw-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-brier",
+    "system": "sno-isle",
+    "name": "Brier Library - Sno-Isle Libraries",
+    "address": "23303 Brier Rd, Brier, WA 98036, USA",
+    "lat": 47.78704090000001,
+    "lng": -122.2736292,
+    "phone": "(425) 483-0888",
+    "website": "http://www.sno-isle.org/locations/brier/",
+    "googlePlaceId": "ChIJq7VZQecPkFQRyMpSXLgdK8I",
+    "googleRating": 4.8,
+    "googleReviewCount": 19,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJq7VZQecPkFQRyMpSXLgdK8I-0.jpg",
+      "/photos/ChIJq7VZQecPkFQRyMpSXLgdK8I-1.jpg",
+      "/photos/ChIJq7VZQecPkFQRyMpSXLgdK8I-2.jpg",
+      "/photos/ChIJq7VZQecPkFQRyMpSXLgdK8I-3.jpg",
+      "/photos/ChIJq7VZQecPkFQRyMpSXLgdK8I-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "11:00 AM - 7:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-clinton",
+    "system": "sno-isle",
+    "name": "Clinton Library - Sno-Isle Libraries",
+    "address": "4781 Deer Lake Rd, Clinton, WA 98236, USA",
+    "lat": 47.9786379,
+    "lng": -122.3584388,
+    "phone": "(360) 341-4280",
+    "website": "http://www.sno-isle.org/locations/clinton/",
+    "googlePlaceId": "ChIJh63bGw3-j1QRT0CgiwHYYtg",
+    "googleRating": 4.9,
+    "googleReviewCount": 17,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJh63bGw3-j1QRT0CgiwHYYtg-0.jpg",
+      "/photos/ChIJh63bGw3-j1QRT0CgiwHYYtg-1.jpg",
+      "/photos/ChIJh63bGw3-j1QRT0CgiwHYYtg-2.jpg",
+      "/photos/ChIJh63bGw3-j1QRT0CgiwHYYtg-3.jpg",
+      "/photos/ChIJh63bGw3-j1QRT0CgiwHYYtg-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-coupeville",
+    "system": "sno-isle",
+    "name": "Coupeville Library - Sno-Isle Libraries",
+    "address": "788 NW Alexander St, Coupeville, WA 98239, USA",
+    "lat": 48.2193324,
+    "lng": -122.6885795,
+    "phone": "(360) 678-4911",
+    "website": "http://www.sno-isle.org/locations/coupeville/",
+    "googlePlaceId": "ChIJpbNCxaeMj1QRwxZI7SW7-vU",
+    "googleRating": 4.9,
+    "googleReviewCount": 37,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJpbNCxaeMj1QRwxZI7SW7-vU-0.jpg",
+      "/photos/ChIJpbNCxaeMj1QRwxZI7SW7-vU-1.jpg",
+      "/photos/ChIJpbNCxaeMj1QRwxZI7SW7-vU-2.jpg",
+      "/photos/ChIJpbNCxaeMj1QRwxZI7SW7-vU-3.jpg",
+      "/photos/ChIJpbNCxaeMj1QRwxZI7SW7-vU-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "9:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-darrington",
+    "system": "sno-isle",
+    "name": "Darrington Library - Sno-Isle Libraries",
+    "address": "1005 Cascade St, Darrington, WA 98241, USA",
+    "lat": 48.2546614,
+    "lng": -121.6040139,
+    "phone": "(360) 436-1600",
+    "website": "http://www.sno-isle.org/locations/darrington/",
+    "googlePlaceId": "ChIJxytuI7kthVQRKYDEdPY8be4",
+    "googleRating": 5,
+    "googleReviewCount": 25,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJxytuI7kthVQRKYDEdPY8be4-0.jpg",
+      "/photos/ChIJxytuI7kthVQRKYDEdPY8be4-1.jpg",
+      "/photos/ChIJxytuI7kthVQRKYDEdPY8be4-2.jpg",
+      "/photos/ChIJxytuI7kthVQRKYDEdPY8be4-3.jpg",
+      "/photos/ChIJxytuI7kthVQRKYDEdPY8be4-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-edmonds",
+    "system": "sno-isle",
+    "name": "Edmonds Library - Sno-Isle Libraries",
+    "address": "650 Main St, Edmonds, WA 98020, USA",
+    "lat": 47.8099883,
+    "lng": -122.3727464,
+    "phone": "(425) 771-1933",
+    "website": "http://www.sno-isle.org/locations/edmonds/",
+    "googlePlaceId": "ChIJpyAYVuUakFQRkSn4vYbPw5E",
+    "googleRating": 4.4,
+    "googleReviewCount": 103,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJpyAYVuUakFQRkSn4vYbPw5E-0.jpg",
+      "/photos/ChIJpyAYVuUakFQRkSn4vYbPw5E-1.jpg",
+      "/photos/ChIJpyAYVuUakFQRkSn4vYbPw5E-2.jpg",
+      "/photos/ChIJpyAYVuUakFQRkSn4vYbPw5E-3.jpg",
+      "/photos/ChIJpyAYVuUakFQRkSn4vYbPw5E-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-freeland",
+    "system": "sno-isle",
+    "name": "Freeland Library - Sno-Isle Libraries",
+    "address": "5495 S Harbor Ave, Freeland, WA 98249, USA",
+    "lat": 48.011802,
+    "lng": -122.52385,
+    "phone": "(360) 331-7323",
+    "website": "http://www.sno-isle.org/locations/freeland/",
+    "googlePlaceId": "ChIJJeA4dWz7j1QR_c1_-FOACCA",
+    "googleRating": 4.9,
+    "googleReviewCount": 39,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJJeA4dWz7j1QR_c1_-FOACCA-0.jpg",
+      "/photos/ChIJJeA4dWz7j1QR_c1_-FOACCA-1.jpg",
+      "/photos/ChIJJeA4dWz7j1QR_c1_-FOACCA-2.jpg",
+      "/photos/ChIJJeA4dWz7j1QR_c1_-FOACCA-3.jpg",
+      "/photos/ChIJJeA4dWz7j1QR_c1_-FOACCA-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "9:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-granite-falls",
+    "system": "sno-isle",
+    "name": "Granite Falls Library - Sno-Isle Libraries",
+    "address": "815 E Galena St, Granite Falls, WA 98252, USA",
+    "lat": 48.082609,
+    "lng": -121.959656,
+    "phone": "(360) 691-6087",
+    "website": "http://www.sno-isle.org/locations/granitefalls/",
+    "googlePlaceId": "ChIJX4O_zCyzmlQRrfPl32R39r8",
+    "googleRating": 4.7,
+    "googleReviewCount": 57,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJX4O_zCyzmlQRrfPl32R39r8-0.jpg",
+      "/photos/ChIJX4O_zCyzmlQRrfPl32R39r8-1.jpg",
+      "/photos/ChIJX4O_zCyzmlQRrfPl32R39r8-2.jpg",
+      "/photos/ChIJX4O_zCyzmlQRrfPl32R39r8-3.jpg",
+      "/photos/ChIJX4O_zCyzmlQRrfPl32R39r8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-lake-stevens",
+    "system": "sno-isle",
+    "name": "Lake Stevens Library - Sno-Isle Libraries",
+    "address": "2211 Grade Rd, Lake Stevens, WA 98258, USA",
+    "lat": 48.0177617,
+    "lng": -122.0628334,
+    "phone": "(425) 334-1900",
+    "website": "https://www.sno-isle.org/lakestevens",
+    "googlePlaceId": "ChIJH_GzofGsmlQRHvn34tJHsA8",
+    "googleRating": 4.8,
+    "googleReviewCount": 55,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJH_GzofGsmlQRHvn34tJHsA8-0.jpg",
+      "/photos/ChIJH_GzofGsmlQRHvn34tJHsA8-1.jpg",
+      "/photos/ChIJH_GzofGsmlQRHvn34tJHsA8-2.jpg",
+      "/photos/ChIJH_GzofGsmlQRHvn34tJHsA8-3.jpg",
+      "/photos/ChIJH_GzofGsmlQRHvn34tJHsA8-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-langley",
+    "system": "sno-isle",
+    "name": "Langley Library - Sno-Isle Libraries",
+    "address": "104 Second Street, Langley, WA 98260, USA",
+    "lat": 48.040071,
+    "lng": -122.406512,
+    "phone": "(360) 221-4383",
+    "website": "http://www.sno-isle.org/locations/langley/",
+    "googlePlaceId": "ChIJBVmeLzf5j1QRyJ4AuLbkt2k",
+    "googleRating": 4.9,
+    "googleReviewCount": 18,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJBVmeLzf5j1QRyJ4AuLbkt2k-0.jpg",
+      "/photos/ChIJBVmeLzf5j1QRyJ4AuLbkt2k-1.jpg",
+      "/photos/ChIJBVmeLzf5j1QRyJ4AuLbkt2k-2.jpg",
+      "/photos/ChIJBVmeLzf5j1QRyJ4AuLbkt2k-3.jpg",
+      "/photos/ChIJBVmeLzf5j1QRyJ4AuLbkt2k-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-lynnwood",
+    "system": "sno-isle",
+    "name": "Lynnwood Library - Sno-Isle Libraries",
+    "address": "19200 44th Ave W, Lynnwood, WA 98036, USA",
+    "lat": 47.8238871,
+    "lng": -122.2930066,
+    "phone": "(425) 778-2148",
+    "website": "http://www.sno-isle.org/locations/lynnwood/",
+    "googlePlaceId": "ChIJZaG2rGoFkFQRnCt1WTKfOYM",
+    "googleRating": 4.7,
+    "googleReviewCount": 246,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJZaG2rGoFkFQRnCt1WTKfOYM-0.jpg",
+      "/photos/ChIJZaG2rGoFkFQRnCt1WTKfOYM-1.jpg",
+      "/photos/ChIJZaG2rGoFkFQRnCt1WTKfOYM-2.jpg",
+      "/photos/ChIJZaG2rGoFkFQRnCt1WTKfOYM-3.jpg",
+      "/photos/ChIJZaG2rGoFkFQRnCt1WTKfOYM-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-marysville",
+    "system": "sno-isle",
+    "name": "Marysville Library - Sno-Isle Libraries",
+    "address": "6120 Grove St, Marysville, WA 98270, USA",
+    "lat": 48.0637586,
+    "lng": -122.1479058,
+    "phone": "(360) 658-5000",
+    "website": "http://www.sno-isle.org/locations/marysville/",
+    "googlePlaceId": "ChIJEQbpGHRThVQR9YfmYigxP-0",
+    "googleRating": 4.6,
+    "googleReviewCount": 183,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJEQbpGHRThVQR9YfmYigxP-0-0.jpg",
+      "/photos/ChIJEQbpGHRThVQR9YfmYigxP-0-1.jpg",
+      "/photos/ChIJEQbpGHRThVQR9YfmYigxP-0-2.jpg",
+      "/photos/ChIJEQbpGHRThVQR9YfmYigxP-0-3.jpg",
+      "/photos/ChIJEQbpGHRThVQR9YfmYigxP-0-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-mill-creek",
+    "system": "sno-isle",
+    "name": "Mill Creek Library - Sno-Isle Libraries",
+    "address": "15429 Bothell Everett Hwy, Mill Creek, WA 98012, USA",
+    "lat": 47.857673,
+    "lng": -122.218294,
+    "phone": "(425) 337-4822",
+    "website": "https://www.sno-isle.org/locations/mill-creek/",
+    "googlePlaceId": "ChIJoVYZWtgFkFQRXLjssvG0-mk",
+    "googleRating": 4.5,
+    "googleReviewCount": 178,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJoVYZWtgFkFQRXLjssvG0-mk-0.jpg",
+      "/photos/ChIJoVYZWtgFkFQRXLjssvG0-mk-1.jpg",
+      "/photos/ChIJoVYZWtgFkFQRXLjssvG0-mk-2.jpg",
+      "/photos/ChIJoVYZWtgFkFQRXLjssvG0-mk-3.jpg",
+      "/photos/ChIJoVYZWtgFkFQRXLjssvG0-mk-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-monroe",
+    "system": "sno-isle",
+    "name": "Monroe Library - Sno-Isle Libraries",
+    "address": "1070 Village Way, Monroe, WA 98272, USA",
+    "lat": 47.848826,
+    "lng": -121.983477,
+    "phone": "(360) 794-7851",
+    "website": "http://www.sno-isle.org/locations/monroe/",
+    "googlePlaceId": "ChIJr3abAQKnmlQRUksZ4Br0HxA",
+    "googleRating": 4.6,
+    "googleReviewCount": 119,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJr3abAQKnmlQRUksZ4Br0HxA-0.jpg",
+      "/photos/ChIJr3abAQKnmlQRUksZ4Br0HxA-1.jpg",
+      "/photos/ChIJr3abAQKnmlQRUksZ4Br0HxA-2.jpg",
+      "/photos/ChIJr3abAQKnmlQRUksZ4Br0HxA-3.jpg",
+      "/photos/ChIJr3abAQKnmlQRUksZ4Br0HxA-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-mountlake-terrace",
+    "system": "sno-isle",
+    "name": "Mountlake Terrace Library - Sno-Isle Libraries",
+    "address": "23300 58th Ave W, Mountlake Terrace, WA 98043, USA",
+    "lat": 47.787131,
+    "lng": -122.311553,
+    "phone": "(425) 776-8722",
+    "website": "https://www.sno-isle.org/locations/mountlake-terrace/",
+    "googlePlaceId": "ChIJizHpag4QkFQRki2sMmtf7mg",
+    "googleRating": 4.7,
+    "googleReviewCount": 82,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJizHpag4QkFQRki2sMmtf7mg-0.jpg",
+      "/photos/ChIJizHpag4QkFQRki2sMmtf7mg-1.jpg",
+      "/photos/ChIJizHpag4QkFQRki2sMmtf7mg-2.jpg",
+      "/photos/ChIJizHpag4QkFQRki2sMmtf7mg-3.jpg",
+      "/photos/ChIJizHpag4QkFQRki2sMmtf7mg-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-mukilteo",
+    "system": "sno-isle",
+    "name": "Mukilteo Library - Sno-Isle Libraries",
+    "address": "4675 Harbour Pointe Blvd, Mukilteo, WA 98275, USA",
+    "lat": 47.9056028,
+    "lng": -122.2970467,
+    "phone": "(425) 493-8202",
+    "website": "https://sno-isle.org/mukilteo",
+    "googlePlaceId": "ChIJpewvhOYDkFQRIj-IScbirrg",
+    "googleRating": 4.5,
+    "googleReviewCount": 136,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJpewvhOYDkFQRIj-IScbirrg-0.jpg",
+      "/photos/ChIJpewvhOYDkFQRIj-IScbirrg-1.jpg",
+      "/photos/ChIJpewvhOYDkFQRIj-IScbirrg-2.jpg",
+      "/photos/ChIJpewvhOYDkFQRIj-IScbirrg-3.jpg",
+      "/photos/ChIJpewvhOYDkFQRIj-IScbirrg-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-oak-harbor",
+    "system": "sno-isle",
+    "name": "Oak Harbor Library - Sno-Isle Libraries",
+    "address": "1000 SE Regatta Dr, Oak Harbor, WA 98277, USA",
+    "lat": 48.2894616,
+    "lng": -122.6337304,
+    "phone": "(360) 675-5115",
+    "website": "http://www.sno-isle.org/locations/oakharbor/",
+    "googlePlaceId": "ChIJa7Ih2HKKj1QR4wSXecKUFA8",
+    "googleRating": 4.4,
+    "googleReviewCount": 74,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJa7Ih2HKKj1QR4wSXecKUFA8-0.jpg",
+      "/photos/ChIJa7Ih2HKKj1QR4wSXecKUFA8-1.jpg",
+      "/photos/ChIJa7Ih2HKKj1QR4wSXecKUFA8-2.jpg",
+      "/photos/ChIJa7Ih2HKKj1QR4wSXecKUFA8-3.jpg",
+      "/photos/ChIJa7Ih2HKKj1QR4wSXecKUFA8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-snohomish",
+    "system": "sno-isle",
+    "name": "Snohomish Library - Sno-Isle Libraries",
+    "address": "311 Maple Ave, Snohomish, WA 98290, USA",
+    "lat": 47.915157,
+    "lng": -122.088498,
+    "phone": "(360) 568-2898",
+    "website": "http://www.sno-isle.org/locations/snohomish/",
+    "googlePlaceId": "ChIJ2d3pMbKpmlQR5vfr8Is1yh0",
+    "googleRating": 4.7,
+    "googleReviewCount": 164,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ2d3pMbKpmlQR5vfr8Is1yh0-0.jpg",
+      "/photos/ChIJ2d3pMbKpmlQR5vfr8Is1yh0-1.jpg",
+      "/photos/ChIJ2d3pMbKpmlQR5vfr8Is1yh0-2.jpg",
+      "/photos/ChIJ2d3pMbKpmlQR5vfr8Is1yh0-3.jpg",
+      "/photos/ChIJ2d3pMbKpmlQR5vfr8Is1yh0-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-stanwood",
+    "system": "sno-isle",
+    "name": "Stanwood Library - Sno-Isle Libraries",
+    "address": "9701 271st St NW, Stanwood, WA 98292, USA",
+    "lat": 48.2423087,
+    "lng": -122.3643901,
+    "phone": "(360) 629-3132",
+    "website": "http://www.sno-isle.org/locations/stanwood/",
+    "googlePlaceId": "ChIJZUzzvmpchVQR7aCTtIWpt80",
+    "googleRating": 4.7,
+    "googleReviewCount": 51,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJZUzzvmpchVQR7aCTtIWpt80-0.jpg",
+      "/photos/ChIJZUzzvmpchVQR7aCTtIWpt80-1.jpg",
+      "/photos/ChIJZUzzvmpchVQR7aCTtIWpt80-2.jpg",
+      "/photos/ChIJZUzzvmpchVQR7aCTtIWpt80-3.jpg",
+      "/photos/ChIJZUzzvmpchVQR7aCTtIWpt80-4.jpg"
+    ],
+    "hours": {
+      "sunday": "1:00 PM - 5:00 PM",
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 7:00 PM",
+      "wednesday": "9:00 AM - 7:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "sno-isle-sultan",
+    "system": "sno-isle",
+    "name": "Sultan Library - Sno-Isle Libraries",
+    "address": "319 Main St #100, Sultan, WA 98294, USA",
+    "lat": 47.86244900000001,
+    "lng": -121.816746,
+    "phone": "(360) 793-1695",
+    "website": "http://www.sno-isle.org/locations/sultan/",
+    "googlePlaceId": "ChIJwyRa2GGjmlQRpXEFDK7cq_E",
+    "googleRating": 4.8,
+    "googleReviewCount": 46,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJwyRa2GGjmlQRpXEFDK7cq_E-0.jpg",
+      "/photos/ChIJwyRa2GGjmlQRpXEFDK7cq_E-1.jpg",
+      "/photos/ChIJwyRa2GGjmlQRpXEFDK7cq_E-2.jpg",
+      "/photos/ChIJwyRa2GGjmlQRpXEFDK7cq_E-3.jpg",
+      "/photos/ChIJwyRa2GGjmlQRpXEFDK7cq_E-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "everett-main-branch-everett-wa",
+    "system": "everett",
+    "name": "Everett Public Library",
+    "address": "2702 Hoyt Ave, Everett, WA 98201, USA",
+    "lat": 47.981673,
+    "lng": -122.2104147,
+    "phone": "(425) 257-8000",
+    "website": "https://epls.org/",
+    "googlePlaceId": "ChIJ51CCc5iqmlQRBinX0S7QJiM",
+    "googleRating": 4.7,
+    "googleReviewCount": 262,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ51CCc5iqmlQRBinX0S7QJiM-0.jpg",
+      "/photos/ChIJ51CCc5iqmlQRBinX0S7QJiM-1.jpg",
+      "/photos/ChIJ51CCc5iqmlQRBinX0S7QJiM-2.jpg",
+      "/photos/ChIJ51CCc5iqmlQRBinX0S7QJiM-3.jpg",
+      "/photos/ChIJ51CCc5iqmlQRBinX0S7QJiM-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 5:00 PM",
+      "saturday": "12:00 PM - 5:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "everett-evergreen-branch-everett-wa",
+    "system": "everett",
+    "name": "Everett Public Library Evergreen Branch",
+    "address": "9512 Evergreen Wy, Everett, WA 98204, USA",
+    "lat": 47.9122412,
+    "lng": -122.238144,
+    "phone": "(425) 257-8250",
+    "website": "https://epls.org/",
+    "googlePlaceId": "ChIJUzb6LTIBkFQR75fOKq1hoHc",
+    "googleRating": 4.5,
+    "googleReviewCount": 166,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJUzb6LTIBkFQR75fOKq1hoHc-0.jpg",
+      "/photos/ChIJUzb6LTIBkFQR75fOKq1hoHc-1.jpg",
+      "/photos/ChIJUzb6LTIBkFQR75fOKq1hoHc-2.jpg",
+      "/photos/ChIJUzb6LTIBkFQR75fOKq1hoHc-3.jpg",
+      "/photos/ChIJUzb6LTIBkFQR75fOKq1hoHc-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "12:00 PM - 8:00 PM",
+      "friday": "10:00 AM - 5:00 PM",
+      "saturday": "12:00 PM - 5:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-bonney-lake",
+    "system": "pierce-county",
+    "name": "Bonney Lake Pierce County Library",
+    "address": "18501 90th St E, Bonney Lake, WA 98391, USA",
+    "lat": 47.1756213,
+    "lng": -122.1821284,
+    "phone": "(253) 548-3308",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJBSByAvz6kFQRsvjT2WsW__E",
+    "googleRating": 4.6,
+    "googleReviewCount": 68,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJBSByAvz6kFQRsvjT2WsW__E-0.jpg",
+      "/photos/ChIJBSByAvz6kFQRsvjT2WsW__E-1.jpg",
+      "/photos/ChIJBSByAvz6kFQRsvjT2WsW__E-2.jpg",
+      "/photos/ChIJBSByAvz6kFQRsvjT2WsW__E-3.jpg",
+      "/photos/ChIJBSByAvz6kFQRsvjT2WsW__E-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 5:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-buckley",
+    "system": "pierce-county",
+    "name": "Buckley Pierce County Library",
+    "address": "123 S River Ave, Buckley, WA 98321, USA",
+    "lat": 47.162624,
+    "lng": -122.0297633,
+    "phone": "(360) 829-0300",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJy6fgn7XvkFQR7xMT3pCZKX4",
+    "googleRating": 4.5,
+    "googleReviewCount": 33,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJy6fgn7XvkFQR7xMT3pCZKX4-0.jpg",
+      "/photos/ChIJy6fgn7XvkFQR7xMT3pCZKX4-1.jpg",
+      "/photos/ChIJy6fgn7XvkFQR7xMT3pCZKX4-2.jpg",
+      "/photos/ChIJy6fgn7XvkFQR7xMT3pCZKX4-3.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-dupont",
+    "system": "pierce-county",
+    "name": "Dupont Pierce County Library",
+    "address": "1540 Wilmington Dr, DuPont, WA 98327, USA",
+    "lat": 47.0916657,
+    "lng": -122.6443243,
+    "phone": "(253) 548-3326",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJtdN-V7gIkVQR7RJYNiqrx1k",
+    "googleRating": 4.8,
+    "googleReviewCount": 33,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJtdN-V7gIkVQR7RJYNiqrx1k-0.jpg",
+      "/photos/ChIJtdN-V7gIkVQR7RJYNiqrx1k-1.jpg",
+      "/photos/ChIJtdN-V7gIkVQR7RJYNiqrx1k-2.jpg",
+      "/photos/ChIJtdN-V7gIkVQR7RJYNiqrx1k-3.jpg",
+      "/photos/ChIJtdN-V7gIkVQR7RJYNiqrx1k-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-eatonville",
+    "system": "pierce-county",
+    "name": "Eatonville Pierce County Library",
+    "address": "205 Center St W, Eatonville, WA 98328, USA",
+    "lat": 46.867114,
+    "lng": -122.268898,
+    "phone": "(253) 548-3311",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJy9w__W0jkVQRLURObtsxil8",
+    "googleRating": 4.7,
+    "googleReviewCount": 23,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJy9w__W0jkVQRLURObtsxil8-0.jpg",
+      "/photos/ChIJy9w__W0jkVQRLURObtsxil8-1.jpg",
+      "/photos/ChIJy9w__W0jkVQRLURObtsxil8-2.jpg",
+      "/photos/ChIJy9w__W0jkVQRLURObtsxil8-3.jpg",
+      "/photos/ChIJy9w__W0jkVQRLURObtsxil8-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-fife",
+    "system": "pierce-county",
+    "name": "Fife Pierce County Library",
+    "address": "6622 20th St E, Fife, WA 98424, USA",
+    "lat": 47.23879480000001,
+    "lng": -122.3406796,
+    "phone": "(253) 548-3323",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJi2SzYMr4kFQRYidlI_ieqAk",
+    "googleRating": 4.6,
+    "googleReviewCount": 59,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJi2SzYMr4kFQRYidlI_ieqAk-0.jpg",
+      "/photos/ChIJi2SzYMr4kFQRYidlI_ieqAk-1.jpg",
+      "/photos/ChIJi2SzYMr4kFQRYidlI_ieqAk-2.jpg",
+      "/photos/ChIJi2SzYMr4kFQRYidlI_ieqAk-3.jpg",
+      "/photos/ChIJi2SzYMr4kFQRYidlI_ieqAk-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-graham",
+    "system": "pierce-county",
+    "name": "Graham Pierce County Library",
+    "address": "9202 224th St E, Graham, WA 98338, USA",
+    "lat": 47.0527132,
+    "lng": -122.3077996,
+    "phone": "(253) 548-3322",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJWZveL6cdkVQR5iWdVpi8HM8",
+    "googleRating": 4.8,
+    "googleReviewCount": 81,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJWZveL6cdkVQR5iWdVpi8HM8-0.jpg",
+      "/photos/ChIJWZveL6cdkVQR5iWdVpi8HM8-1.jpg",
+      "/photos/ChIJWZveL6cdkVQR5iWdVpi8HM8-2.jpg",
+      "/photos/ChIJWZveL6cdkVQR5iWdVpi8HM8-3.jpg",
+      "/photos/ChIJWZveL6cdkVQR5iWdVpi8HM8-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-key-center",
+    "system": "pierce-county",
+    "name": "Key Center Pierce County Library",
+    "address": "8905 Key Peninsula Hwy NW, Lakebay, WA 98349, USA",
+    "lat": 47.3383232,
+    "lng": -122.7466124,
+    "phone": "(253) 548-3309",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJVUVy1QavkVQRibonT9emupc",
+    "googleRating": 4.9,
+    "googleReviewCount": 28,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJVUVy1QavkVQRibonT9emupc-0.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-lakewood",
+    "system": "pierce-county",
+    "name": "Lakewood Pierce County Library",
+    "address": "10202 Gravelly Lake Dr SW, Lakewood, WA 98499, USA",
+    "lat": 47.164945,
+    "lng": -122.5210857,
+    "phone": "(253) 548-3302",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJcXN0UCcBkVQREB4CUs-CcVo",
+    "googleRating": 4.2,
+    "googleReviewCount": 129,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJcXN0UCcBkVQREB4CUs-CcVo-0.jpg",
+      "/photos/ChIJcXN0UCcBkVQREB4CUs-CcVo-1.jpg",
+      "/photos/ChIJcXN0UCcBkVQREB4CUs-CcVo-2.jpg",
+      "/photos/ChIJcXN0UCcBkVQREB4CUs-CcVo-3.jpg",
+      "/photos/ChIJcXN0UCcBkVQREB4CUs-CcVo-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-milton-edgewood",
+    "system": "pierce-county",
+    "name": "Milton/Edgewood Pierce County Library",
+    "address": "900 Meridian Ave E, Milton, WA 98354, USA",
+    "lat": 47.2472416,
+    "lng": -122.2956702,
+    "phone": "(253) 548-3325",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJNUhSmpX4kFQRzp_rG-UZUxE",
+    "googleRating": 4.7,
+    "googleReviewCount": 26,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJNUhSmpX4kFQRzp_rG-UZUxE-0.jpg",
+      "/photos/ChIJNUhSmpX4kFQRzp_rG-UZUxE-1.jpg",
+      "/photos/ChIJNUhSmpX4kFQRzp_rG-UZUxE-2.jpg",
+      "/photos/ChIJNUhSmpX4kFQRzp_rG-UZUxE-3.jpg",
+      "/photos/ChIJNUhSmpX4kFQRzp_rG-UZUxE-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-orting",
+    "system": "pierce-county",
+    "name": "Orting Pierce County Library",
+    "address": "202 Washington Ave S, Orting, WA 98360, USA",
+    "lat": 47.0970193,
+    "lng": -122.2025209,
+    "phone": "(253) 548-3312",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJr_doz3LjkFQRNB27CcrtktI",
+    "googleRating": 4.4,
+    "googleReviewCount": 25,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJr_doz3LjkFQRNB27CcrtktI-0.jpg",
+      "/photos/ChIJr_doz3LjkFQRNB27CcrtktI-1.jpg",
+      "/photos/ChIJr_doz3LjkFQRNB27CcrtktI-2.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-parkland-spanaway",
+    "system": "pierce-county",
+    "name": "Parkland/Spanaway Pierce County Library",
+    "address": "13718 Pacific Ave S, Tacoma, WA 98444, USA",
+    "lat": 47.132215,
+    "lng": -122.436043,
+    "phone": "(253) 548-3304",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJk86pNM0DkVQRzv8NJymyLss",
+    "googleRating": 4.5,
+    "googleReviewCount": 183,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJk86pNM0DkVQRzv8NJymyLss-0.jpg",
+      "/photos/ChIJk86pNM0DkVQRzv8NJymyLss-1.jpg",
+      "/photos/ChIJk86pNM0DkVQRzv8NJymyLss-2.jpg",
+      "/photos/ChIJk86pNM0DkVQRzv8NJymyLss-3.jpg",
+      "/photos/ChIJk86pNM0DkVQRzv8NJymyLss-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-peninsulagig-harbor",
+    "system": "pierce-county",
+    "name": "Gig Harbor Pierce County Library",
+    "address": "4424 Point Fosdick Dr, Gig Harbor, WA 98335, USA",
+    "lat": 47.2990237,
+    "lng": -122.5799944,
+    "phone": "(253) 548-3305",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJSfNgZrmtkVQRRw0M_UCwiTA",
+    "googleRating": 4.8,
+    "googleReviewCount": 98,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJSfNgZrmtkVQRRw0M_UCwiTA-0.jpg",
+      "/photos/ChIJSfNgZrmtkVQRRw0M_UCwiTA-1.jpg",
+      "/photos/ChIJSfNgZrmtkVQRRw0M_UCwiTA-2.jpg",
+      "/photos/ChIJSfNgZrmtkVQRRw0M_UCwiTA-3.jpg",
+      "/photos/ChIJSfNgZrmtkVQRRw0M_UCwiTA-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-south-hill",
+    "system": "pierce-county",
+    "name": "South Hill Pierce County Library",
+    "address": "15420 Meridian E, Puyallup, WA 98375, USA",
+    "lat": 47.1162784,
+    "lng": -122.2941274,
+    "phone": "(253) 548-3303",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJA1uuxjv9kFQRbA146ecmcnY",
+    "googleRating": 4.6,
+    "googleReviewCount": 167,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJA1uuxjv9kFQRbA146ecmcnY-0.jpg",
+      "/photos/ChIJA1uuxjv9kFQRbA146ecmcnY-1.jpg",
+      "/photos/ChIJA1uuxjv9kFQRbA146ecmcnY-2.jpg",
+      "/photos/ChIJA1uuxjv9kFQRbA146ecmcnY-3.jpg",
+      "/photos/ChIJA1uuxjv9kFQRbA146ecmcnY-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-steilacoom",
+    "system": "pierce-county",
+    "name": "Steilacoom Pierce County Library",
+    "address": "2950 Steilacoom Blvd SW, Steilacoom, WA 98388, USA",
+    "lat": 47.1766528,
+    "lng": -122.5788893,
+    "phone": "(253) 548-3313",
+    "website": "https://mypcls.org/visit-the-library/locations-hours/",
+    "googlePlaceId": "ChIJDeyy7FEHkVQRSAN-8q3xqcs",
+    "googleRating": 4.6,
+    "googleReviewCount": 109,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJDeyy7FEHkVQRSAN-8q3xqcs-0.jpg",
+      "/photos/ChIJDeyy7FEHkVQRSAN-8q3xqcs-1.jpg",
+      "/photos/ChIJDeyy7FEHkVQRSAN-8q3xqcs-2.jpg",
+      "/photos/ChIJDeyy7FEHkVQRSAN-8q3xqcs-3.jpg",
+      "/photos/ChIJDeyy7FEHkVQRSAN-8q3xqcs-4.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-sumner",
+    "system": "pierce-county",
+    "name": "Sumner Pierce County Library",
+    "address": "1116 Fryar Ave, Sumner, WA 98390, USA",
+    "lat": 47.2049891,
+    "lng": -122.2443574,
+    "phone": "(253) 548-3306",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJU5ON5tf7kFQRTK7xspHliE0",
+    "googleRating": 4.6,
+    "googleReviewCount": 58,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJU5ON5tf7kFQRTK7xspHliE0-0.jpg",
+      "/photos/ChIJU5ON5tf7kFQRTK7xspHliE0-1.jpg",
+      "/photos/ChIJU5ON5tf7kFQRTK7xspHliE0-2.jpg",
+      "/photos/ChIJU5ON5tf7kFQRTK7xspHliE0-3.jpg",
+      "/photos/ChIJU5ON5tf7kFQRTK7xspHliE0-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-summit",
+    "system": "pierce-county",
+    "name": "Summit Pierce County Library",
+    "address": "5107 112th St E, Tacoma, WA 98446, USA",
+    "lat": 47.1548939,
+    "lng": -122.3606227,
+    "phone": "(253) 548-3321",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJw6SeLun9kFQRUtfZgHovdpg",
+    "googleRating": 4.6,
+    "googleReviewCount": 75,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJw6SeLun9kFQRUtfZgHovdpg-0.jpg",
+      "/photos/ChIJw6SeLun9kFQRUtfZgHovdpg-1.jpg",
+      "/photos/ChIJw6SeLun9kFQRUtfZgHovdpg-2.jpg",
+      "/photos/ChIJw6SeLun9kFQRUtfZgHovdpg-3.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-tillicum",
+    "system": "pierce-county",
+    "name": "Tillicum Pierce County Library",
+    "address": "14916 Washington Ave SW, Lakewood, WA 98498, USA",
+    "lat": 47.1237903,
+    "lng": -122.5542158,
+    "phone": "(253) 548-3314",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJc4aIIJIGkVQRgefaVZkNbtE",
+    "googleRating": 4.3,
+    "googleReviewCount": 24,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJc4aIIJIGkVQRgefaVZkNbtE-0.jpg"
+    ],
+    "hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "11:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "11:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "pierce-county-university-place",
+    "system": "pierce-county",
+    "name": "University Place Pierce County Library",
+    "address": "3609 Market Pl W, University Place, WA 98466, USA",
+    "lat": 47.225835,
+    "lng": -122.535949,
+    "phone": "(253) 548-3307",
+    "website": "https://mypcls.org/",
+    "googlePlaceId": "ChIJ82nXjO2qkVQRBaVj5irS7DM",
+    "googleRating": 4.4,
+    "googleReviewCount": 164,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ82nXjO2qkVQRBaVj5irS7DM-0.jpg",
+      "/photos/ChIJ82nXjO2qkVQRBaVj5irS7DM-1.jpg",
+      "/photos/ChIJ82nXjO2qkVQRBaVj5irS7DM-2.jpg",
+      "/photos/ChIJ82nXjO2qkVQRBaVj5irS7DM-3.jpg",
+      "/photos/ChIJ82nXjO2qkVQRBaVj5irS7DM-4.jpg"
+    ],
+    "hours": {
+      "sunday": "10:00 AM - 6:00 PM",
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-main",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Main Branch",
+    "address": "1102 Tacoma Ave S, Tacoma, WA 98402, USA",
+    "lat": 47.2523913,
+    "lng": -122.444582,
+    "phone": "(253) 280-2800",
+    "website": "https://www.tacomalibrary.org/main-construction-timeline",
+    "googlePlaceId": "ChIJNwEeGgtVkFQRoJC_sY0iF9M",
+    "googleRating": 4.2,
+    "googleReviewCount": 100,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJNwEeGgtVkFQRoJC_sY0iF9M-0.jpg",
+      "/photos/ChIJNwEeGgtVkFQRoJC_sY0iF9M-1.jpg",
+      "/photos/ChIJNwEeGgtVkFQRoJC_sY0iF9M-2.jpg",
+      "/photos/ChIJNwEeGgtVkFQRoJC_sY0iF9M-3.jpg",
+      "/photos/ChIJNwEeGgtVkFQRoJC_sY0iF9M-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-fern-hill",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Fern Hill Branch",
+    "address": "765 S 84th St, Tacoma, WA 98444, USA",
+    "lat": 47.1815553,
+    "lng": -122.4428546,
+    "phone": "(253) 280-2910",
+    "website": "https://www.tacomalibrary.org/locations/2/",
+    "googlePlaceId": "ChIJC41l-M0BkVQRFacO_hzwY-4",
+    "googleRating": 4.5,
+    "googleReviewCount": 77,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJC41l-M0BkVQRFacO_hzwY-4-0.jpg",
+      "/photos/ChIJC41l-M0BkVQRFacO_hzwY-4-1.jpg",
+      "/photos/ChIJC41l-M0BkVQRFacO_hzwY-4-2.jpg",
+      "/photos/ChIJC41l-M0BkVQRFacO_hzwY-4-3.jpg",
+      "/photos/ChIJC41l-M0BkVQRFacO_hzwY-4-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-kobetich",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Kobetich Branch",
+    "address": "212 Browns Point Blvd NE, Tacoma, WA 98422, USA",
+    "lat": 47.28800769999999,
+    "lng": -122.3863697,
+    "phone": "(253) 280-2920",
+    "website": "https://www.tacomalibrary.org/locations/3/",
+    "googlePlaceId": "ChIJXdD6HGNWkFQRTrsy2IGe22E",
+    "googleRating": 4.8,
+    "googleReviewCount": 48,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJXdD6HGNWkFQRTrsy2IGe22E-0.jpg",
+      "/photos/ChIJXdD6HGNWkFQRTrsy2IGe22E-1.jpg",
+      "/photos/ChIJXdD6HGNWkFQRTrsy2IGe22E-2.jpg",
+      "/photos/ChIJXdD6HGNWkFQRTrsy2IGe22E-3.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-moore",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Moore Branch",
+    "address": "215 S 56th St, Tacoma, WA 98408, USA",
+    "lat": 47.2066841,
+    "lng": -122.43573,
+    "phone": "(253) 280-2930",
+    "website": "https://www.tacomalibrary.org/locations/4/",
+    "googlePlaceId": "ChIJj-A_JcP_kFQRIvon6GPRNkg",
+    "googleRating": 4.6,
+    "googleReviewCount": 121,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJj-A_JcP_kFQRIvon6GPRNkg-0.jpg",
+      "/photos/ChIJj-A_JcP_kFQRIvon6GPRNkg-1.jpg",
+      "/photos/ChIJj-A_JcP_kFQRIvon6GPRNkg-2.jpg",
+      "/photos/ChIJj-A_JcP_kFQRIvon6GPRNkg-3.jpg",
+      "/photos/ChIJj-A_JcP_kFQRIvon6GPRNkg-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-mottet",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Mottet Branch",
+    "address": "3523 E G St, Tacoma, WA 98404, USA",
+    "lat": 47.2287565,
+    "lng": -122.4218958,
+    "phone": "(253) 280-2950",
+    "website": "https://www.tacomalibrary.org/locations/5/",
+    "googlePlaceId": "ChIJ7wKvT4T_kFQRlZTv0gHheF8",
+    "googleRating": 4.8,
+    "googleReviewCount": 58,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJ7wKvT4T_kFQRlZTv0gHheF8-0.jpg",
+      "/photos/ChIJ7wKvT4T_kFQRlZTv0gHheF8-1.jpg",
+      "/photos/ChIJ7wKvT4T_kFQRlZTv0gHheF8-2.jpg",
+      "/photos/ChIJ7wKvT4T_kFQRlZTv0gHheF8-3.jpg",
+      "/photos/ChIJ7wKvT4T_kFQRlZTv0gHheF8-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-south-tacoma",
+    "system": "tacoma",
+    "name": "Tacoma Public Library South Tacoma Branch",
+    "address": "3411 S 56th St, Tacoma, WA 98409, USA",
+    "lat": 47.2063996,
+    "lng": -122.4820648,
+    "phone": "(253) 280-2960",
+    "website": "https://www.tacomalibrary.org/locations/6/",
+    "googlePlaceId": "ChIJj-A_JcP_kFQR-Qln19EA7f8",
+    "googleRating": 4.6,
+    "googleReviewCount": 51,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJj-A_JcP_kFQR-Qln19EA7f8-0.jpg",
+      "/photos/ChIJj-A_JcP_kFQR-Qln19EA7f8-1.jpg",
+      "/photos/ChIJj-A_JcP_kFQR-Qln19EA7f8-2.jpg",
+      "/photos/ChIJj-A_JcP_kFQR-Qln19EA7f8-3.jpg",
+      "/photos/ChIJj-A_JcP_kFQR-Qln19EA7f8-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-swasey",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Swasey Branch",
+    "address": "7001 6th Ave, Tacoma, WA 98406, USA",
+    "lat": 47.255824,
+    "lng": -122.530468,
+    "phone": "(253) 280-2970",
+    "website": "https://www.tacomalibrary.org/locations/7/",
+    "googlePlaceId": "ChIJIVyqIS6rkVQRy8lTk0iBrh0",
+    "googleRating": 4.6,
+    "googleReviewCount": 47,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJIVyqIS6rkVQRy8lTk0iBrh0-0.jpg",
+      "/photos/ChIJIVyqIS6rkVQRy8lTk0iBrh0-1.jpg",
+      "/photos/ChIJIVyqIS6rkVQRy8lTk0iBrh0-2.jpg",
+      "/photos/ChIJIVyqIS6rkVQRy8lTk0iBrh0-3.jpg",
+      "/photos/ChIJIVyqIS6rkVQRy8lTk0iBrh0-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "id": "tacoma-wheelock",
+    "system": "tacoma",
+    "name": "Tacoma Public Library Wheelock Branch",
+    "address": "3722 N 26th St, Tacoma, WA 98407, USA",
+    "lat": 47.2707616,
+    "lng": -122.4865267,
+    "phone": "(253) 280-2980",
+    "website": "https://www.tacomalibrary.org/locations/8/",
+    "googlePlaceId": "ChIJxWMndO9UkFQRFKWdmFtKRww",
+    "googleRating": 4.7,
+    "googleReviewCount": 103,
+    "sqft": null,
+    "photos": [
+      "/photos/ChIJxWMndO9UkFQRFKWdmFtKRww-0.jpg",
+      "/photos/ChIJxWMndO9UkFQRFKWdmFtKRww-1.jpg",
+      "/photos/ChIJxWMndO9UkFQRFKWdmFtKRww-2.jpg",
+      "/photos/ChIJxWMndO9UkFQRFKWdmFtKRww-3.jpg",
+      "/photos/ChIJxWMndO9UkFQRFKWdmFtKRww-4.jpg"
+    ],
+    "hours": {
+      "tuesday": "12:00 PM - 8:00 PM",
+      "wednesday": "12:00 PM - 8:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM"
+    },
+    "popularTimes": {},
+    "wheelchairAccessible": true,
+    "lastUpdated": "2026-04-03"
   }
 ]

@@ -98,7 +98,7 @@ export function LibraryDetail({ library, driveTime, now }: LibraryDetailProps) {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-white text-gray-600 text-xs font-medium border border-gray-200 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
-              KCLS Page
+              Website
             </a>
           </div>
         </div>

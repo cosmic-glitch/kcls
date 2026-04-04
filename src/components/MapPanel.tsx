@@ -2,7 +2,16 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
-import type { Library, UserLocation } from "@/lib/types";
+import type { Library, LibrarySystem, UserLocation } from "@/lib/types";
+
+const SYSTEM_PIN_COLORS: Record<LibrarySystem, { fill: string; stroke: string }> = {
+  kcls: { fill: "#4f46e5", stroke: "#7c3aed" },       // indigo/purple
+  spl: { fill: "#059669", stroke: "#047857" },         // emerald
+  "sno-isle": { fill: "#0284c7", stroke: "#0369a1" },  // sky
+  everett: { fill: "#d97706", stroke: "#b45309" },     // amber
+  "pierce-county": { fill: "#e11d48", stroke: "#be123c" }, // rose
+  tacoma: { fill: "#7c3aed", stroke: "#6d28d9" },      // violet
+};
 
 interface MapPanelProps {
   libraries: Library[];
@@ -117,9 +126,9 @@ export function MapPanel({
         },
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
-          fillColor: "#4f46e5",
+          fillColor: SYSTEM_PIN_COLORS[lib.system]?.fill ?? "#4f46e5",
           fillOpacity: 1,
-          strokeColor: "#7c3aed",
+          strokeColor: SYSTEM_PIN_COLORS[lib.system]?.stroke ?? "#7c3aed",
           strokeWeight: 2,
           scale: 10,
         },

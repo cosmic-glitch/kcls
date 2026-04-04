@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { Library, SortConfig, SortField, DriveTimeResult } from "@/lib/types";
 import { LibraryCard } from "./LibraryCard";
 import { LibraryDetail } from "./LibraryDetail";
@@ -12,6 +12,7 @@ interface LibraryListProps {
   onSortChange: (sort: SortConfig) => void;
   now: Date;
   majorityHours: string | null;
+  highlightedId: string | null;
 }
 
 const COLUMNS: { label: string; field: SortField; flex: string }[] = [
@@ -28,8 +29,21 @@ export function LibraryList({
   onSortChange,
   now,
   majorityHours,
+  highlightedId,
 }: LibraryListProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const cardRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+
+  // When a pin is clicked on the map, expand and scroll to that library
+  useEffect(() => {
+    if (highlightedId) {
+      setExpandedId(highlightedId);
+      const el = cardRefs.current.get(highlightedId);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  }, [highlightedId]);
 
   const driveTimeMap = new Map(driveTimes.map((dt) => [dt.libraryId, dt]));
 
@@ -85,8 +99,8 @@ export function LibraryList({
       </div>
 
       {/* Library cards */}
-      {libraries.map((lib) => (
-        <div key={lib.id}>
+      {libraries.map((lib, index) => (
+        <div key={lib.id} ref={(el) => { if (el) cardRefs.current.set(lib.id, el); }}>
           <LibraryCard
             library={lib}
             driveTime={driveTimeMap.get(lib.id) ?? null}
@@ -94,6 +108,7 @@ export function LibraryList({
             onClick={() => handleCardClick(lib.id)}
             now={now}
             majorityHours={majorityHours}
+            pinLabel={String.fromCharCode(65 + (index % 26))}
           />
           {expandedId === lib.id && (
             <LibraryDetail

@@ -13,7 +13,11 @@ import { FilterBar } from "@/components/FilterBar";
 import { LibraryList } from "@/components/LibraryList";
 import { MapPanel } from "@/components/MapPanel";
 
-const libraries = librariesData as Library[];
+// Add default system for libraries that don't have one yet (pre-migration data)
+const libraries = (librariesData as (Library | Omit<Library, "system">)[]).map((lib) => ({
+  ...lib,
+  system: "system" in lib ? lib.system : "kcls" as const,
+})) as Library[];
 
 export default function AppContent() {
   const { location: autoLocation, loading: geoLoading, error: geoError } = useGeolocation();
@@ -27,6 +31,7 @@ export default function AppContent() {
     minRating: null,
     sizeCategory: null,
     openNow: false,
+    system: null,
   });
 
   const [sort, setSort] = useState<SortConfig>({
@@ -92,6 +97,7 @@ export default function AppContent() {
             onSortChange={setSort}
             now={now}
             majorityHours={majorityHours}
+            highlightedId={highlightedId}
           />
         </div>
       </div>
@@ -106,6 +112,7 @@ export default function AppContent() {
             onSortChange={setSort}
             now={now}
             majorityHours={majorityHours}
+            highlightedId={highlightedId}
           />
         </div>
         <div className="flex-1" style={{ height: "calc(100vh - 170px)" }}>

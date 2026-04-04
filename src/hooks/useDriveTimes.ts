@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader";
 import type { Library, UserLocation, DriveTimeResult } from "@/lib/types";
 
-const STORAGE_KEY = "kcls-drive-times";
+const STORAGE_KEY = "library-drive-times";
 const BATCH_SIZE = 25;
 
 interface DriveTimesState {
